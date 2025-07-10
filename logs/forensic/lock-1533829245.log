@@ -1,0 +1,16 @@
+Encuentre nuestro resultado de anÃ¡lisis abajo.
+Para hacer su sitio web funcional otra vez usted necesita cambiar permisos del archivo por lo menos a 604 despuÃ©s de limpiar.
+
+Los siguientes archivos han sido subidos probablemente por hackers.
+Por favor cheque estos archivos y elimÃ­nelos si es necesario.
+~/clickandbuilds/GrupoOnix/wp-includes/Requests/Transport/.21c6aa30.ico
+~/clickandbuilds/GrupoOnix/index.php
+
+Los siguientes archivos han sido probablemente modificados por hackers.
+Cheque estos archivos y vuelva a cargarlos usando una copia de seguridad limpia.
+~/clickandbuilds/GrupoOnix/wp-content/plugins/manage-notification-emails/includes/pluggable-functions-1.2.php
+~/clickandbuilds/GrupoOnix/wp-content/plugins/events-manager/classes/em-people.php
+~/clickandbuilds/GrupoOnix/wp-content/plugins/google-apps-login/core/Google/Service/Replicapoolupdater.php
+~/clickandbuilds/GrupoOnix/wp-content/plugins/popup-builder/helpers/SgPopupGetData.php
+~/clickandbuilds/GrupoOnix/wp-includes/class-walker-page.php
+

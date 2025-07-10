@@ -1,0 +1,305 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.navbar-header .navbar-brand .brand-logo {
+	width: 92px !important;
+}
+
+.nav .dropdown .dropdown-menu .dropdown-item {
+	min-width: 205px !important;
+}
+
+.breadcrumb .breadcrumb-item i, .breadcrumb .breadcrumb-item a {
+	color: white !important;
+}
+
+.btn-action {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.btn-action i {
+	margin-right: 5px;
+}
+
+.display-none {
+	display: none;
+}
+
+/*TREE VIEW*/
+.tree {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 9px;
+  position: relative;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #575962;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.tree:before {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #67B2DD;
+  border-image: none;
+  border-style: dotted;
+  border-width: 0 0 0 1px;
+  bottom: 16px;
+  content: "";
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+}
+.tree .tree-folder {
+  cursor: pointer;
+  min-height: 20px;
+  width: auto;
+}
+.tree .tree-folder .tree-folder-header {
+  height: 100%;
+  line-height: 20px;
+  position: relative;
+}
+.tree .tree-folder .tree-folder-header:hover {
+  background-color: #f3f3f3;
+}
+.tree .tree-folder .tree-folder-header .tree-folder-name,
+.tree .tree-item .tree-item-name {
+  display: inline;
+  z-index: 2;
+}
+.tree .tree-folder .tree-folder-header > [class*="fa-"]:first-child,
+.tree .tree-item > [class*="fa-"]:first-child {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  z-index: 2;
+}
+.tree .tree-folder .tree-folder-header .tree-folder-name {
+  margin-left: 2px;
+}
+.tree .tree-folder .tree-folder-header > [class*="fa-"]:first-child {
+  margin: -2px 0 0 -2px;
+}
+.tree .tree-folder:last-child:after {
+  border-left: 1px solid #FFFFFF;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  left: -15px;
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+}
+.tree .tree-folder .tree-folder-content {
+  margin-left: 23px;
+  position: relative;
+}
+.tree .tree-folder .tree-folder-content:before {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #67B2DD;
+  border-image: none;
+  border-style: dotted;
+  border-width: 0 0 0 1px;
+  bottom: 16px;
+  content: "";
+  display: inline-block;
+  left: -14px;
+  position: absolute;
+  top: -14px;
+  z-index: 1;
+}
+.tree .tree-item {
+  cursor: pointer;
+  height: auto;
+  line-height: 20px;
+  position: relative;
+}
+.tree .tree-item:hover {
+  background-color: #f3f3f3;
+}
+.tree .tree-item .tree-item-name i{
+  margin-right: 5px;
+}
+.tree .tree-item .tree-item-name > [class*="fa-"]:first-child {
+  margin-right: 3px;
+}
+.tree .tree-item > [class*="fa-"]:first-child {
+  margin-top: -1px;
+}
+.tree .tree-folder,
+.tree .tree-item {
+  position: relative;
+}
+.tree .tree-folder:before,
+.tree .tree-item:before {
+  border-top: 1px dotted #67B2DD;
+  content: "";
+  display: inline-block;
+  height: 0;
+  left: -13px;
+  position: absolute;
+  top: 14px;
+  width: 18px;
+  z-index: 1;
+}
+.tree .tree-selected {
+  background-color: rgba(98, 168, 209, 0.1);
+  color: #6398B0;
+  font-weight: bold;
+}
+.tree .tree-selected:hover {
+  background-color: rgba(98, 168, 209, 0.1);
+}
+.tree .tree-folder .tree-folder-header {
+  border-radius: 0 0 0 0;
+}
+.tree .tree-item,
+.tree .tree-folder .tree-folder-header {
+  -moz-box-sizing: content-box;
+  margin: 0;
+  padding: 5px;
+}
+.tree .tree-item > [class*="fa-"]:first-child {
+  -moz-box-sizing: content-box;
+  background-color: #FAFAFA;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #e6e6e6;
+  font-size: 11px;
+  height: 13px;
+  line-height: 13px;
+  text-align: center;
+  width: 13px;
+}
+.tree .tree-selected > [class*="fa-"]:first-child {
+  /*background-color: #a8bc7b;
+  border-color: #a8bc7b;*/
+  color: #6398B0;
+}
+.tree .icon-plus[class*="fa-"]:first-child,
+.tree .icon-minus[class*="fa-"]:first-child {
+  -moz-box-sizing: content-box;
+  background-color: #FFFFFF;
+  border: 1px solid #8BAEBF;
+  height: 11px;
+  line-height: 10px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 11px;
+  z-index: 1;
+}
+.tree .icon-plus[class*="fa-"]:first-child:before {
+  content: "+";
+  display: block;
+  font-family: "Open Sans";
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+}
+.tree .icon-minus[class*="fa-"]:first-child:before {
+  border-top: 1px solid #4D6878;
+  content: "";
+  display: block;
+  height: 0;
+  left: 2px;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+.tree .tree-unselectable .tree-item > [class*="fa-"]:first-child {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0 none;
+  border-radius: 0 0 0 0;
+  box-shadow: none;
+  color: #5084A0;
+  font-size: 10px;
+  height: 13px;
+  line-height: 13px;
+  text-align: center;
+  width: 13px;
+}
+.tree [class*="fa-"][class*="-down"] {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.tree .fa-spin {
+  height: auto;
+}
+.tree .tree-loading {
+  margin-left: 36px;
+}
+.tree img {
+  display: inline;
+}
+.tree-item-name a {
+	color: #575962;
+	font-size: 18px;
+}
+
+.tree-item-name a:hover {
+	text-decoration: none;
+}
+
+.tree-empty {
+	font-size: 14px;
+}
+
+.load-file {
+	font-size: 8px;
+	margin-left: 7px;
+}
+.app-content.home{
+  /*height: 100%;*/
+  min-height: calc(100% - 190px);
+
+}
+@media(min-width:769px ){
+    html body .content .content-wrapper .content-wrapper-before{
+    height: 80px;
+  }  
+}
+
+.home .content-body{
+  height: calc(100% - 115px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .content-body.inicio{
+  align-items: center;
+  min-height: calc(100vh - 275px);
+}
+.app-content.home .content-body img{
+  max-width: 450px;
+  width: 70%;
+  opacity:0.7;
+}
+
+#cont-notificaciones {
+  z-index: 1000;
+}

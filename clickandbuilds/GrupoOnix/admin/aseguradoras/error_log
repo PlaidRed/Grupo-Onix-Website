@@ -1,0 +1,3 @@
+[25-May-2020 17:30:12 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Common.php on line 21
+[25-May-2020 17:30:12 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[25-May-2020 17:30:12 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197

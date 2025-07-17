@@ -1,0 +1,7 @@
+[23-Apr-2020 16:35:26 UTC] PHP Warning:  include_once(../../../../include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/videos_asegurador/aviso.php on line 21
+[23-Apr-2020 16:35:26 UTC] PHP Warning:  include_once(): Failed opening '../../../../include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/videos_asegurador/aviso.php on line 21
+[23-Apr-2020 16:35:26 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/videos_asegurador/aviso.php on line 31
+[23-Apr-2020 16:35:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/videos_asegurador/aviso.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/videos_asegurador/aviso.php on line 31

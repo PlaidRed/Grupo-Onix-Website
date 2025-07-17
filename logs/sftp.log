@@ -1,0 +1,1031 @@
+Jul  2 14:09:09 10.71.60.0 tmp85579022-8860 Connection from 10.71.60.0 port 47264 on 74.208.59.129 port 22 rdomain ""
+Jul  2 14:09:10 10.71.60.0 tmp85579022-8860 Accepted password for tmp85579022-8860 from 10.71.60.0 port 47264 ssh2
+Jul  2 14:09:10 10.71.60.0 tmp85579022-8860 Starting session: subsystem 'sftp' for tmp85579022-8860 from 10.71.60.0 port 47264 id 0
+Jul  2 14:09:10 10.71.60.0 tmp85579022-8860 session opened for local user tmp85579022-8860 from [10.71.60.0]
+Jul  2 14:15:59 10.71.60.0 tmp85579022-8860 session closed for local user tmp85579022-8860 from [10.71.60.0]
+Jul  2 14:15:59 10.71.60.0 tmp85579022-8860 Connection closed by 10.71.60.0 port 47264
+Jul  3 13:17:16 10.71.61.0 tmp85579022-7119 Connection from 10.71.61.0 port 52688 on 74.208.59.129 port 22 rdomain ""
+Jul  3 13:17:17 10.71.61.0 tmp85579022-7119 Accepted password for tmp85579022-7119 from 10.71.61.0 port 52688 ssh2
+Jul  3 13:17:17 10.71.61.0 tmp85579022-7119 Starting session: subsystem 'sftp' for tmp85579022-7119 from 10.71.61.0 port 52688 id 0
+Jul  3 13:17:17 10.71.61.0 tmp85579022-7119 session opened for local user tmp85579022-7119 from [10.71.61.0]
+Jul  3 13:29:10 10.71.61.0 tmp85579022-7119 open "/index.php" flags READ mode 0666
+Jul  3 13:29:11 10.71.61.0 tmp85579022-7119 close "/index.php" bytes read 6780 written 0
+Jul  3 13:29:11 10.71.61.0 tmp85579022-7119 [10.71.61.0|get|1|6780|0|0|0|2f696e6465782e706870|]
+Jul  3 13:34:11 10.71.61.0 tmp85579022-7119 session closed for local user tmp85579022-7119 from [10.71.61.0]
+Jul  3 13:34:11 10.71.61.0 tmp85579022-7119 Connection closed by 10.71.61.0 port 52688
+Jul  3 13:43:13 10.71.61.0 tmp85579022-5129 Connection from 10.71.61.0 port 60264 on 74.208.59.129 port 22 rdomain ""
+Jul  3 13:43:13 10.71.61.0 tmp85579022-5129 Accepted password for tmp85579022-5129 from 10.71.61.0 port 60264 ssh2
+Jul  3 13:43:14 10.71.61.0 tmp85579022-5129 Starting session: subsystem 'sftp' for tmp85579022-5129 from 10.71.61.0 port 60264 id 0
+Jul  3 13:43:14 10.71.61.0 tmp85579022-5129 session opened for local user tmp85579022-5129 from [10.71.61.0]
+Jul  3 13:43:14 10.71.61.0 tmp85579022-5129 open "/index.php" flags READ mode 0666
+Jul  3 13:43:14 10.71.61.0 tmp85579022-5129 close "/index.php" bytes read 6780 written 0
+Jul  3 13:43:14 10.71.61.0 tmp85579022-5129 [10.71.61.0|get|0|6780|0|0|0|2f696e6465782e706870|]
+Jul  3 13:48:30 10.71.61.0 tmp85579022-5129 session closed for local user tmp85579022-5129 from [10.71.61.0]
+Jul  3 13:48:30 10.71.61.0 tmp85579022-5129 Connection closed by 10.71.61.0 port 60264
+Jul  3 14:23:40 10.71.60.0 u85579022 Connection from 10.71.60.0 port 62848 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:24:00 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 62848 ssh2
+Jul  3 14:26:46 10.71.61.0 u85579022 Connection from 10.71.61.0 port 48536 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:26:55 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 48536 ssh2
+Jul  3 14:32:23 10.71.61.0 u85579022 Connection from 10.71.61.0 port 57386 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:32:25 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 57386 ssh2
+Jul  3 14:33:48 10.71.61.0 u85579022 Connection from 10.71.61.0 port 21534 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:33:51 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 21534 ssh2
+Jul  3 14:37:19 10.71.61.0 u85579022 Connection from 10.71.61.0 port 56388 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:37:21 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 56388 ssh2
+Jul  3 14:39:04 10.71.61.0 u85579022 Connection from 10.71.61.0 port 53762 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:39:07 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 53762 ssh2
+Jul  3 14:44:16 10.71.61.0 u85579022 Connection from 10.71.61.0 port 65330 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:44:19 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 65330 ssh2
+Jul  3 14:45:14 10.71.61.0 u85579022 Connection from 10.71.61.0 port 30786 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:45:16 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 30786 ssh2
+Jul  3 14:47:42 10.71.61.0 u85579022 Connection from 10.71.61.0 port 47302 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:47:44 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 47302 ssh2
+Jul  3 14:57:17 10.71.60.0 u85579022 Connection from 10.71.60.0 port 28816 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:57:24 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 28816 ssh2
+Jul  3 14:58:54 10.71.60.0 u85579022 Connection from 10.71.60.0 port 32128 on 74.208.59.129 port 22 rdomain ""
+Jul  3 14:58:56 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 32128 ssh2
+Jul  3 15:01:02 10.71.60.0 u85579022 Connection from 10.71.60.0 port 47186 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:01:05 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 47186 ssh2
+Jul  3 15:04:52 10.71.61.0 u85579022 Connection from 10.71.61.0 port 41160 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:04:54 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 41160 ssh2
+Jul  3 15:06:24 10.71.61.0 u85579022 Connection from 10.71.61.0 port 20762 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:06:26 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 20762 ssh2
+Jul  3 15:06:42 10.71.61.0 u85579022 Connection from 10.71.61.0 port 35148 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:06:45 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 35148 ssh2
+Jul  3 15:11:38 10.71.61.0 u85579022 Connection from 10.71.61.0 port 48566 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:11:38 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 48566 ssh2
+Jul  3 15:11:38 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 48566 id 0
+Jul  3 15:11:38 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  3 15:11:39 10.71.61.0 u85579022 session closed for local user u85579022 from [10.71.61.0]
+Jul  3 15:11:39 10.71.61.0 u85579022 Connection closed by 10.71.61.0 port 48566
+Jul  3 15:15:30 10.71.61.0 u85579022 Connection from 10.71.61.0 port 45340 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:15:31 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 45340 ssh2
+Jul  3 15:15:31 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 45340 id 0
+Jul  3 15:15:31 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  3 15:15:32 10.71.61.0 u85579022 session closed for local user u85579022 from [10.71.61.0]
+Jul  3 15:15:32 10.71.61.0 u85579022 Connection closed by 10.71.61.0 port 45340
+Jul  3 15:17:09 10.71.61.0 u85579022 Connection from 10.71.61.0 port 20964 on 74.208.59.129 port 22 rdomain ""
+Jul  3 15:17:10 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 20964 ssh2
+Jul  3 15:17:10 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 20964 id 0
+Jul  3 15:17:10 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  3 15:17:11 10.71.61.0 u85579022 session closed for local user u85579022 from [10.71.61.0]
+Jul  3 15:17:11 10.71.61.0 u85579022 Connection closed by 10.71.61.0 port 20964
+Jul  3 16:57:48 10.71.61.0 tmp85579022-5578 Connection from 10.71.61.0 port 11312 on 74.208.59.129 port 22 rdomain ""
+Jul  3 16:57:49 10.71.61.0 tmp85579022-5578 Accepted password for tmp85579022-5578 from 10.71.61.0 port 11312 ssh2
+Jul  3 16:57:49 10.71.61.0 tmp85579022-5578 Starting session: subsystem 'sftp' for tmp85579022-5578 from 10.71.61.0 port 11312 id 0
+Jul  3 16:57:49 10.71.61.0 tmp85579022-5578 session opened for local user tmp85579022-5578 from [10.71.61.0]
+Jul  3 16:58:29 10.71.61.0 tmp85579022-5578 open "/index.php" flags READ mode 0666
+Jul  3 16:58:29 10.71.61.0 tmp85579022-5578 close "/index.php" bytes read 6780 written 0
+Jul  3 16:58:29 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|6780|0|0|0|2f696e6465782e706870|]
+Jul  3 17:04:32 10.71.61.0 tmp85579022-5578 open "/demo-video-background.html" flags READ mode 0666
+Jul  3 17:04:33 10.71.61.0 tmp85579022-5578 close "/demo-video-background.html" bytes read 5711 written 0
+Jul  3 17:04:33 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|5711|0|0|0|2f64656d6f2d766964656f2d6261636b67726f756e642e68746d6c|]
+Jul  3 17:04:43 10.71.61.0 tmp85579022-5578 open "/demo-restaurant.html" flags READ mode 0666
+Jul  3 17:04:44 10.71.61.0 tmp85579022-5578 close "/demo-restaurant.html" bytes read 5446 written 0
+Jul  3 17:04:44 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|5446|0|0|0|2f64656d6f2d72657374617572616e742e68746d6c|]
+Jul  3 17:04:49 10.71.61.0 tmp85579022-5578 open "/demo-image-background.html" flags READ mode 0666
+Jul  3 17:04:49 10.71.61.0 tmp85579022-5578 close "/demo-image-background.html" bytes read 5438 written 0
+Jul  3 17:04:49 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|5438|0|0|0|2f64656d6f2d696d6167652d6261636b67726f756e642e68746d6c|]
+Jul  3 17:04:53 10.71.61.0 tmp85579022-5578 open "/demo-cream-app.html" flags READ mode 0666
+Jul  3 17:04:54 10.71.61.0 tmp85579022-5578 close "/demo-cream-app.html" bytes read 5431 written 0
+Jul  3 17:04:54 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|5431|0|0|0|2f64656d6f2d637265616d2d6170702e68746d6c|]
+Jul  3 17:04:58 10.71.61.0 tmp85579022-5578 open "/components.html" flags READ mode 0666
+Jul  3 17:04:58 10.71.61.0 tmp85579022-5578 close "/components.html" bytes read 13064 written 0
+Jul  3 17:04:58 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|13064|0|0|0|2f636f6d706f6e656e74732e68746d6c|]
+Jul  3 17:05:04 10.71.61.0 tmp85579022-5578 open "/SIO.png" flags READ mode 0666
+Jul  3 17:05:04 10.71.61.0 tmp85579022-5578 close "/SIO.png" bytes read 119795 written 0
+Jul  3 17:05:04 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|119795|0|0|0|2f53494f2e706e67|]
+Jul  3 17:05:15 10.71.61.0 tmp85579022-5578 open "/Logo SiO.PNG" flags READ mode 0666
+Jul  3 17:05:16 10.71.61.0 tmp85579022-5578 close "/Logo SiO.PNG" bytes read 301158 written 0
+Jul  3 17:05:16 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|301158|0|0|0|2f4c6f676f2053694f2e504e47|]
+Jul  3 17:05:27 10.71.61.0 tmp85579022-5578 open "/KnowHosts.txt" flags READ mode 0666
+Jul  3 17:05:27 10.71.61.0 tmp85579022-5578 close "/KnowHosts.txt" bytes read 411 written 0
+Jul  3 17:05:27 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|411|0|0|0|2f4b6e6f77486f7374732e747874|]
+Jul  3 17:05:53 10.71.61.0 tmp85579022-5578 open "/GRUPO ONIX.svg" flags READ mode 0666
+Jul  3 17:05:53 10.71.61.0 tmp85579022-5578 close "/GRUPO ONIX.svg" bytes read 5823 written 0
+Jul  3 17:05:53 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|5823|0|0|0|2f475255504f204f4e49582e737667|]
+Jul  3 17:06:03 10.71.61.0 tmp85579022-5578 open "/GRUPO ONIX.png" flags READ mode 0666
+Jul  3 17:06:04 10.71.61.0 tmp85579022-5578 close "/GRUPO ONIX.png" bytes read 171599 written 0
+Jul  3 17:06:04 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|171599|0|0|0|2f475255504f204f4e49582e706e67|]
+Jul  3 17:06:14 10.71.61.0 tmp85579022-5578 open "/video/time.mp4" flags READ mode 0666
+Jul  3 17:06:15 10.71.61.0 tmp85579022-5578 close "/video/time.mp4" bytes read 2294702 written 0
+Jul  3 17:06:15 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|2294702|0|0|0|2f766964656f2f74696d652e6d7034|]
+Jul  3 17:06:20 10.71.61.0 tmp85579022-5578 open "/video/time.webm" flags READ mode 0666
+Jul  3 17:06:21 10.71.61.0 tmp85579022-5578 close "/video/time.webm" bytes read 1659532 written 0
+Jul  3 17:06:21 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|1|1659532|0|0|0|2f766964656f2f74696d652e7765626d|]
+Jul  3 17:06:44 10.71.61.0 tmp85579022-5578 open "/segurosonix/sites/default/settings.php" flags READ mode 0666
+Jul  3 17:06:44 10.71.61.0 tmp85579022-5578 close "/segurosonix/sites/default/settings.php" bytes read 29701 written 0
+Jul  3 17:06:44 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|29701|0|0|0|2f73656775726f736f6e69782f73697465732f64656661756c742f73657474696e67732e706870|]
+Jul  3 17:06:49 10.71.61.0 tmp85579022-5578 open "/segurosonix/sites/default/services.yml" flags READ mode 0666
+Jul  3 17:06:49 10.71.61.0 tmp85579022-5578 close "/segurosonix/sites/default/services.yml" bytes read 5997 written 0
+Jul  3 17:06:49 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|5997|0|0|0|2f73656775726f736f6e69782f73697465732f64656661756c742f73657276696365732e796d6c|]
+Jul  3 17:06:58 10.71.61.0 tmp85579022-5578 open "/segurosonix/sites/default/default.settings.php" flags READ mode 0666
+Jul  3 17:06:58 10.71.61.0 tmp85579022-5578 close "/segurosonix/sites/default/default.settings.php" bytes read 29105 written 0
+Jul  3 17:06:58 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|29105|0|0|0|2f73656775726f736f6e69782f73697465732f64656661756c742f64656661756c742e73657474696e67732e706870|]
+Jul  3 17:07:03 10.71.61.0 tmp85579022-5578 open "/segurosonix/sites/default/default.services.yml" flags READ mode 0666
+Jul  3 17:07:03 10.71.61.0 tmp85579022-5578 close "/segurosonix/sites/default/default.services.yml" bytes read 5997 written 0
+Jul  3 17:07:03 10.71.61.0 tmp85579022-5578 [10.71.61.0|get|0|5997|0|0|0|2f73656775726f736f6e69782f73697465732f64656661756c742f64656661756c742e73657276696365732e796d6c|]
+Jul  3 17:12:09 10.71.61.0 tmp85579022-5578 Connection closed by 10.71.61.0 port 11312
+Jul  3 17:12:09 10.71.61.0 tmp85579022-5578 session closed for local user tmp85579022-5578 from [10.71.61.0]
+Jul  3 17:17:33 10.71.61.0 tmp85579022-4078 Connection from 10.71.61.0 port 48812 on 74.208.59.129 port 22 rdomain ""
+Jul  3 17:17:34 10.71.61.0 tmp85579022-4078 Accepted password for tmp85579022-4078 from 10.71.61.0 port 48812 ssh2
+Jul  3 17:17:34 10.71.61.0 tmp85579022-4078 Starting session: subsystem 'sftp' for tmp85579022-4078 from 10.71.61.0 port 48812 id 0
+Jul  3 17:17:34 10.71.61.0 tmp85579022-4078 session opened for local user tmp85579022-4078 from [10.71.61.0]
+Jul  3 17:18:46 10.71.61.0 tmp85579022-4078 open "/logs/traffic.db" flags READ mode 0666
+Jul  3 17:18:47 10.71.61.0 tmp85579022-4078 close "/logs/traffic.db" bytes read 45056 written 0
+Jul  3 17:18:47 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Jul  3 17:18:47 10.71.61.0 tmp85579022-4078 open "/logs/traffic.db" flags READ mode 0666
+Jul  3 17:18:47 10.71.61.0 tmp85579022-4078 close "/logs/traffic.db" bytes read 45056 written 0
+Jul  3 17:18:47 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Jul  3 17:19:40 10.71.61.0 tmp85579022-4078 open "/logs/sftp.log" flags READ mode 0666
+Jul  3 17:19:40 10.71.61.0 tmp85579022-4078 close "/logs/sftp.log" bytes read 14775 written 0
+Jul  3 17:19:40 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|14775|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Jul  3 17:19:42 10.71.61.0 tmp85579022-4078 open "/logs/last_traffic" flags READ mode 0666
+Jul  3 17:19:43 10.71.61.0 tmp85579022-4078 close "/logs/last_traffic" bytes read 0 written 0
+Jul  3 17:19:43 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Jul  3 17:19:45 10.71.61.0 tmp85579022-4078 open "/logs/info.py" flags READ mode 0666
+Jul  3 17:19:45 10.71.61.0 tmp85579022-4078 close "/logs/info.py" bytes read 6319 written 0
+Jul  3 17:19:45 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|6319|0|0|0|2f6c6f67732f696e666f2e7079|]
+Jul  3 17:19:48 10.71.61.0 tmp85579022-4078 open "/logs/info.pl" flags READ mode 0666
+Jul  3 17:19:48 10.71.61.0 tmp85579022-4078 close "/logs/info.pl" bytes read 4200 written 0
+Jul  3 17:19:48 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|4200|0|0|0|2f6c6f67732f696e666f2e706c|]
+Jul  3 17:20:00 10.71.61.0 tmp85579022-4078 open "/logs/info.php5" flags READ mode 0666
+Jul  3 17:20:01 10.71.61.0 tmp85579022-4078 close "/logs/info.php5" bytes read 21 written 0
+Jul  3 17:20:01 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Jul  3 17:20:03 10.71.61.0 tmp85579022-4078 open "/logs/access.log.current" flags READ mode 0666
+Jul  3 17:20:04 10.71.61.0 tmp85579022-4078 close "/logs/access.log.current" bytes read 941383 written 0
+Jul  3 17:20:04 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|941383|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Jul  3 17:20:10 10.71.61.0 tmp85579022-4078 open "/logs/access.log.current" flags READ mode 0666
+Jul  3 17:20:10 10.71.61.0 tmp85579022-4078 close "/logs/access.log.current" bytes read 941383 written 0
+Jul  3 17:20:10 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|941383|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Jul  3 17:20:13 10.71.61.0 tmp85579022-4078 open "/logs/access.log.27.4" flags READ mode 0666
+Jul  3 17:20:14 10.71.61.0 tmp85579022-4078 close "/logs/access.log.27.4" bytes read 941383 written 0
+Jul  3 17:20:14 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|941383|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e34|]
+Jul  3 17:20:16 10.71.61.0 tmp85579022-4078 open "/logs/access.log.27.3.gz" flags READ mode 0666
+Jul  3 17:20:16 10.71.61.0 tmp85579022-4078 close "/logs/access.log.27.3.gz" bytes read 66953 written 0
+Jul  3 17:20:16 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|66953|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e332e677a|]
+Jul  3 17:20:18 10.71.61.0 tmp85579022-4078 open "/logs/access.log.27.2.gz" flags READ mode 0666
+Jul  3 17:20:19 10.71.61.0 tmp85579022-4078 close "/logs/access.log.27.2.gz" bytes read 69048 written 0
+Jul  3 17:20:19 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|69048|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e322e677a|]
+Jul  3 17:20:36 10.71.61.0 tmp85579022-4078 open "/logs/access.log.27.1.gz" flags READ mode 0666
+Jul  3 17:20:37 10.71.61.0 tmp85579022-4078 close "/logs/access.log.27.1.gz" bytes read 102489 written 0
+Jul  3 17:20:37 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|102489|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e312e677a|]
+Jul  3 17:20:40 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.7.gz" flags READ mode 0666
+Jul  3 17:20:41 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.7.gz" bytes read 123642 written 0
+Jul  3 17:20:41 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|123642|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e372e677a|]
+Jul  3 17:20:47 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.6.gz" flags READ mode 0666
+Jul  3 17:20:47 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.6.gz" bytes read 28256 written 0
+Jul  3 17:20:47 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|28256|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e362e677a|]
+Jul  3 17:20:50 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.5.gz" flags READ mode 0666
+Jul  3 17:20:50 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.5.gz" bytes read 53684 written 0
+Jul  3 17:20:50 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|53684|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e352e677a|]
+Jul  3 17:20:52 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.4.gz" flags READ mode 0666
+Jul  3 17:20:53 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.4.gz" bytes read 126815 written 0
+Jul  3 17:20:53 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|126815|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e342e677a|]
+Jul  3 17:22:32 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.3.gz" flags READ mode 0666
+Jul  3 17:22:33 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.3.gz" bytes read 114640 written 0
+Jul  3 17:22:33 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|114640|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e332e677a|]
+Jul  3 17:22:36 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.2.gz" flags READ mode 0666
+Jul  3 17:22:37 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.2.gz" bytes read 132099 written 0
+Jul  3 17:22:37 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|132099|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e322e677a|]
+Jul  3 17:23:36 10.71.61.0 tmp85579022-4078 open "/logs/access.log.26.1.gz" flags READ mode 0666
+Jul  3 17:23:36 10.71.61.0 tmp85579022-4078 close "/logs/access.log.26.1.gz" bytes read 87892 written 0
+Jul  3 17:23:36 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|87892|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e312e677a|]
+Jul  3 17:23:40 10.71.61.0 tmp85579022-4078 open "/logs/access.log.25.gz" flags READ mode 0666
+Jul  3 17:23:41 10.71.61.0 tmp85579022-4078 close "/logs/access.log.25.gz" bytes read 500096 written 0
+Jul  3 17:23:41 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|500096|0|0|0|2f6c6f67732f6163636573732e6c6f672e32352e677a|]
+Jul  3 17:23:45 10.71.61.0 tmp85579022-4078 open "/logs/access.log.24.gz" flags READ mode 0666
+Jul  3 17:23:45 10.71.61.0 tmp85579022-4078 close "/logs/access.log.24.gz" bytes read 473425 written 0
+Jul  3 17:23:45 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|473425|0|0|0|2f6c6f67732f6163636573732e6c6f672e32342e677a|]
+Jul  3 17:23:50 10.71.61.0 tmp85579022-4078 open "/logs/access.log.23.gz" flags READ mode 0666
+Jul  3 17:23:50 10.71.61.0 tmp85579022-4078 close "/logs/access.log.23.gz" bytes read 554618 written 0
+Jul  3 17:23:50 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|554618|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e677a|]
+Jul  3 17:24:10 10.71.61.0 tmp85579022-4078 open "/logs/access.log.22.gz" flags READ mode 0666
+Jul  3 17:24:11 10.71.61.0 tmp85579022-4078 close "/logs/access.log.22.gz" bytes read 581464 written 0
+Jul  3 17:24:11 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|581464|0|0|0|2f6c6f67732f6163636573732e6c6f672e32322e677a|]
+Jul  3 17:24:14 10.71.61.0 tmp85579022-4078 open "/logs/access.log.21.gz" flags READ mode 0666
+Jul  3 17:24:14 10.71.61.0 tmp85579022-4078 close "/logs/access.log.21.gz" bytes read 476731 written 0
+Jul  3 17:24:14 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|476731|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e677a|]
+Jul  3 17:24:23 10.71.61.0 tmp85579022-4078 open "/logs/access.log.20.gz" flags READ mode 0666
+Jul  3 17:24:23 10.71.61.0 tmp85579022-4078 close "/logs/access.log.20.gz" bytes read 490414 written 0
+Jul  3 17:24:23 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|490414|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e677a|]
+Jul  3 17:24:29 10.71.61.0 tmp85579022-4078 open "/logs/access.log.19.gz" flags READ mode 0666
+Jul  3 17:24:30 10.71.61.0 tmp85579022-4078 close "/logs/access.log.19.gz" bytes read 745672 written 0
+Jul  3 17:24:30 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|745672|0|0|0|2f6c6f67732f6163636573732e6c6f672e31392e677a|]
+Jul  3 17:24:33 10.71.61.0 tmp85579022-4078 open "/logs/.htaccess" flags READ mode 0666
+Jul  3 17:24:33 10.71.61.0 tmp85579022-4078 close "/logs/.htaccess" bytes read 197 written 0
+Jul  3 17:24:33 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|197|0|0|0|2f6c6f67732f2e6874616363657373|]
+Jul  3 17:27:07 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/index.html" flags READ mode 0666
+Jul  3 17:27:08 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/index.html" bytes read 6715 written 0
+Jul  3 17:27:08 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|6715|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Jul  3 17:27:10 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/12.html" flags READ mode 0666
+Jul  3 17:27:10 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/12.html" bytes read 10103 written 0
+Jul  3 17:27:10 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10103|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Jul  3 17:29:11 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/11.html" flags READ mode 0666
+Jul  3 17:29:11 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/11.html" bytes read 10087 written 0
+Jul  3 17:29:11 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10087|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Jul  3 17:29:13 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/10.html" flags READ mode 0666
+Jul  3 17:29:13 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/10.html" bytes read 10319 written 0
+Jul  3 17:29:13 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10319|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Jul  3 17:29:16 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/09.html" flags READ mode 0666
+Jul  3 17:29:16 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/09.html" bytes read 10055 written 0
+Jul  3 17:29:16 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10055|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Jul  3 17:29:24 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/08.html" flags READ mode 0666
+Jul  3 17:29:24 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/08.html" bytes read 10363 written 0
+Jul  3 17:29:24 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10363|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Jul  3 17:29:26 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/07.html" flags READ mode 0666
+Jul  3 17:29:26 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/07.html" bytes read 1839 written 0
+Jul  3 17:29:26 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|1839|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30372e68746d6c|]
+Jul  3 17:29:29 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/06.html" flags READ mode 0666
+Jul  3 17:29:29 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/06.html" bytes read 10029 written 0
+Jul  3 17:29:29 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10029|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30362e68746d6c|]
+Jul  3 17:29:37 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/05.html" flags READ mode 0666
+Jul  3 17:29:38 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/05.html" bytes read 10347 written 0
+Jul  3 17:29:38 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|1|10347|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+Jul  3 17:29:40 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/04.html" flags READ mode 0666
+Jul  3 17:29:40 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/04.html" bytes read 10043 written 0
+Jul  3 17:29:40 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10043|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+Jul  3 17:29:42 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/03.html" flags READ mode 0666
+Jul  3 17:29:42 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/03.html" bytes read 10387 written 0
+Jul  3 17:29:42 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10387|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+Jul  3 17:29:45 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/02.html" flags READ mode 0666
+Jul  3 17:29:45 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/02.html" bytes read 9467 written 0
+Jul  3 17:29:45 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|9467|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+Jul  3 17:29:47 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/01.html" flags READ mode 0666
+Jul  3 17:29:47 10.71.61.0 tmp85579022-4078 close "/logs/traffic.html/01.html" bytes read 10411 written 0
+Jul  3 17:29:47 10.71.61.0 tmp85579022-4078 [10.71.61.0|get|0|10411|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+Jul  3 17:29:50 10.71.61.0 tmp85579022-4078 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Jul  3 17:29:50 10.71.61.0 tmp85579022-4078 sent status Permission denied
+Jul  3 17:29:50 10.71.61.0 tmp85579022-4078 session closed for local user tmp85579022-4078 from [10.71.61.0]
+Jul  3 17:29:50 10.71.61.0 tmp85579022-4078 Connection closed by 10.71.61.0 port 48812
+Jul  3 17:29:54 10.71.61.0 tmp85579022-6115 Connection from 10.71.61.0 port 40314 on 74.208.59.129 port 22 rdomain ""
+Jul  3 17:29:54 10.71.61.0 tmp85579022-6115 Accepted password for tmp85579022-6115 from 10.71.61.0 port 40314 ssh2
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 Starting session: subsystem 'sftp' for tmp85579022-6115 from 10.71.61.0 port 40314 id 0
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 session opened for local user tmp85579022-6115 from [10.71.61.0]
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 sent status Permission denied
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 Connection closed by 10.71.61.0 port 40314
+Jul  3 17:29:55 10.71.61.0 tmp85579022-6115 session closed for local user tmp85579022-6115 from [10.71.61.0]
+Jul  3 17:30:01 10.71.61.0 tmp85579022-6115 Connection from 10.71.61.0 port 49054 on 74.208.59.129 port 22 rdomain ""
+Jul  3 17:30:01 10.71.61.0 tmp85579022-6115 Accepted password for tmp85579022-6115 from 10.71.61.0 port 49054 ssh2
+Jul  3 17:30:01 10.71.61.0 tmp85579022-6115 Starting session: subsystem 'sftp' for tmp85579022-6115 from 10.71.61.0 port 49054 id 0
+Jul  3 17:30:01 10.71.61.0 tmp85579022-6115 session opened for local user tmp85579022-6115 from [10.71.61.0]
+Jul  3 17:30:02 10.71.61.0 tmp85579022-6115 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Jul  3 17:30:02 10.71.61.0 tmp85579022-6115 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Jul  3 17:30:02 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Jul  3 17:31:20 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1536179110.log" flags READ mode 0666
+Jul  3 17:31:20 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1536179110.log" bytes read 623 written 0
+Jul  3 17:31:20 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|623|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533363137393131302e6c6f67|]
+Jul  3 17:31:22 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1535950688.log" flags READ mode 0666
+Jul  3 17:31:22 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1535950688.log" bytes read 2633 written 0
+Jul  3 17:31:22 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|2633|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533353935303638382e6c6f67|]
+Jul  3 17:31:26 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1534376594.log" flags READ mode 0666
+Jul  3 17:31:26 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1534376594.log" bytes read 1619 written 0
+Jul  3 17:31:26 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|1619|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533343337363539342e6c6f67|]
+Jul  3 17:31:29 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1533829245.log" flags READ mode 0666
+Jul  3 17:31:29 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1533829245.log" bytes read 1025 written 0
+Jul  3 17:31:29 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|1025|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533333832393234352e6c6f67|]
+Jul  3 17:31:31 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1533608352.log" flags READ mode 0666
+Jul  3 17:31:31 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1533608352.log" bytes read 675 written 0
+Jul  3 17:31:31 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|675|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533333630383335322e6c6f67|]
+Jul  3 17:31:33 10.71.61.0 tmp85579022-6115 open "/logs/forensic/lock-1533415388.log" flags READ mode 0666
+Jul  3 17:31:33 10.71.61.0 tmp85579022-6115 close "/logs/forensic/lock-1533415388.log" bytes read 1063 written 0
+Jul  3 17:31:33 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|1063|0|0|0|2f6c6f67732f666f72656e7369632f6c6f636b2d313533333431353338382e6c6f67|]
+Jul  3 17:32:03 10.71.61.0 tmp85579022-6115 open "/js/bootstrap.min.js" flags READ mode 0666
+Jul  3 17:32:03 10.71.61.0 tmp85579022-6115 close "/js/bootstrap.min.js" bytes read 27749 written 0
+Jul  3 17:32:03 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|27749|0|0|0|2f6a732f626f6f7473747261702e6d696e2e6a73|]
+Jul  3 17:32:06 10.71.61.0 tmp85579022-6115 open "/js/jquery-1.10.2.js" flags READ mode 0666
+Jul  3 17:32:07 10.71.61.0 tmp85579022-6115 close "/js/jquery-1.10.2.js" bytes read 273198 written 0
+Jul  3 17:32:07 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|273198|0|0|0|2f6a732f6a71756572792d312e31302e322e6a73|]
+Jul  3 17:33:48 10.71.61.0 tmp85579022-6115 open "/images/video_bg.jpg" flags READ mode 0666
+Jul  3 17:33:49 10.71.61.0 tmp85579022-6115 close "/images/video_bg.jpg" bytes read 167790 written 0
+Jul  3 17:33:49 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|167790|0|0|0|2f696d616765732f766964656f5f62672e6a7067|]
+Jul  3 17:33:53 10.71.61.0 tmp85579022-6115 open "/images/thumb_video.png" flags READ mode 0666
+Jul  3 17:33:53 10.71.61.0 tmp85579022-6115 close "/images/thumb_video.png" bytes read 11423 written 0
+Jul  3 17:33:53 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|11423|0|0|0|2f696d616765732f7468756d625f766964656f2e706e67|]
+Jul  3 17:33:55 10.71.61.0 tmp85579022-6115 open "/images/thumb_restaurant.png" flags READ mode 0666
+Jul  3 17:33:56 10.71.61.0 tmp85579022-6115 close "/images/thumb_restaurant.png" bytes read 16505 written 0
+Jul  3 17:33:56 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|16505|0|0|0|2f696d616765732f7468756d625f72657374617572616e742e706e67|]
+Jul  3 17:34:05 10.71.61.0 tmp85579022-6115 open "/images/thumb_image.png" flags READ mode 0666
+Jul  3 17:34:05 10.71.61.0 tmp85579022-6115 close "/images/thumb_image.png" bytes read 11036 written 0
+Jul  3 17:34:05 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|11036|0|0|0|2f696d616765732f7468756d625f696d6167652e706e67|]
+Jul  3 17:34:07 10.71.61.0 tmp85579022-6115 open "/images/thumb_application.png" flags READ mode 0666
+Jul  3 17:34:07 10.71.61.0 tmp85579022-6115 close "/images/thumb_application.png" bytes read 14280 written 0
+Jul  3 17:34:07 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|14280|0|0|0|2f696d616765732f7468756d625f6170706c69636174696f6e2e706e67|]
+Jul  3 17:34:10 10.71.61.0 tmp85579022-6115 open "/images/rick.jpg" flags READ mode 0666
+Jul  3 17:34:10 10.71.61.0 tmp85579022-6115 close "/images/rick.jpg" bytes read 113426 written 0
+Jul  3 17:34:10 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|113426|0|0|0|2f696d616765732f7269636b2e6a7067|]
+Jul  3 17:34:12 10.71.61.0 tmp85579022-6115 open "/images/restaurant.jpg" flags READ mode 0666
+Jul  3 17:34:13 10.71.61.0 tmp85579022-6115 close "/images/restaurant.jpg" bytes read 633965 written 0
+Jul  3 17:34:13 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|633965|0|0|0|2f696d616765732f72657374617572616e742e6a7067|]
+Jul  3 17:34:17 10.71.61.0 tmp85579022-6115 open "/images/new_logo.png" flags READ mode 0666
+Jul  3 17:34:17 10.71.61.0 tmp85579022-6115 close "/images/new_logo.png" bytes read 3557 written 0
+Jul  3 17:34:17 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3557|0|0|0|2f696d616765732f6e65775f6c6f676f2e706e67|]
+Jul  3 17:34:20 10.71.61.0 tmp85579022-6115 open "/images/favicon.png" flags READ mode 0666
+Jul  3 17:34:20 10.71.61.0 tmp85579022-6115 close "/images/favicon.png" bytes read 2761 written 0
+Jul  3 17:34:20 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|2761|0|0|0|2f696d616765732f66617669636f6e2e706e67|]
+Jul  3 17:34:32 10.71.61.0 tmp85579022-6115 open "/images/default2.jpg" flags READ mode 0666
+Jul  3 17:34:33 10.71.61.0 tmp85579022-6115 close "/images/default2.jpg" bytes read 341084 written 0
+Jul  3 17:34:33 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|341084|0|0|0|2f696d616765732f64656661756c74322e6a7067|]
+Jul  3 17:34:35 10.71.61.0 tmp85579022-6115 open "/images/default.png" flags READ mode 0666
+Jul  3 17:34:36 10.71.61.0 tmp85579022-6115 close "/images/default.png" bytes read 782043 written 0
+Jul  3 17:34:36 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|782043|0|0|0|2f696d616765732f64656661756c742e706e67|]
+Jul  3 17:34:40 10.71.61.0 tmp85579022-6115 open "/images/default.jpg" flags READ mode 0666
+Jul  3 17:34:41 10.71.61.0 tmp85579022-6115 close "/images/default.jpg" bytes read 74380 written 0
+Jul  3 17:34:41 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|74380|0|0|0|2f696d616765732f64656661756c742e6a7067|]
+Jul  3 17:34:50 10.71.61.0 tmp85579022-6115 open "/images/blurred-black-cover.jpeg" flags READ mode 0666
+Jul  3 17:34:51 10.71.61.0 tmp85579022-6115 close "/images/blurred-black-cover.jpeg" bytes read 62836 written 0
+Jul  3 17:34:51 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|62836|0|0|0|2f696d616765732f626c75727265642d626c61636b2d636f7665722e6a706567|]
+Jul  3 17:34:52 10.71.61.0 tmp85579022-6115 open "/images/apple-icon.png" flags READ mode 0666
+Jul  3 17:34:53 10.71.61.0 tmp85579022-6115 close "/images/apple-icon.png" bytes read 2446 written 0
+Jul  3 17:34:53 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|2446|0|0|0|2f696d616765732f6170706c652d69636f6e2e706e67|]
+Jul  3 17:35:57 10.71.61.0 tmp85579022-6115 open "/images/flags/YE.png" flags READ mode 0666
+Jul  3 17:35:57 10.71.61.0 tmp85579022-6115 close "/images/flags/YE.png" bytes read 3075 written 0
+Jul  3 17:35:57 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3075|0|0|0|2f696d616765732f666c6167732f59452e706e67|]
+Jul  3 17:35:59 10.71.61.0 tmp85579022-6115 open "/images/flags/VN.png" flags READ mode 0666
+Jul  3 17:35:59 10.71.61.0 tmp85579022-6115 close "/images/flags/VN.png" bytes read 3334 written 0
+Jul  3 17:35:59 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3334|0|0|0|2f696d616765732f666c6167732f564e2e706e67|]
+Jul  3 17:36:01 10.71.61.0 tmp85579022-6115 open "/images/flags/VE.png" flags READ mode 0666
+Jul  3 17:36:02 10.71.61.0 tmp85579022-6115 close "/images/flags/VE.png" bytes read 3234 written 0
+Jul  3 17:36:02 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3234|0|0|0|2f696d616765732f666c6167732f56452e706e67|]
+Jul  3 17:36:04 10.71.61.0 tmp85579022-6115 open "/images/flags/US.png" flags READ mode 0666
+Jul  3 17:36:04 10.71.61.0 tmp85579022-6115 close "/images/flags/US.png" bytes read 3310 written 0
+Jul  3 17:36:04 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3310|0|0|0|2f696d616765732f666c6167732f55532e706e67|]
+Jul  3 17:36:06 10.71.61.0 tmp85579022-6115 open "/images/flags/UA.png" flags READ mode 0666
+Jul  3 17:36:06 10.71.61.0 tmp85579022-6115 close "/images/flags/UA.png" bytes read 3120 written 0
+Jul  3 17:36:06 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3120|0|0|0|2f696d616765732f666c6167732f55412e706e67|]
+Jul  3 17:36:08 10.71.61.0 tmp85579022-6115 open "/images/flags/TZ.png" flags READ mode 0666
+Jul  3 17:36:08 10.71.61.0 tmp85579022-6115 close "/images/flags/TZ.png" bytes read 3670 written 0
+Jul  3 17:36:08 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3670|0|0|0|2f696d616765732f666c6167732f545a2e706e67|]
+Jul  3 17:36:10 10.71.61.0 tmp85579022-6115 open "/images/flags/TR.png" flags READ mode 0666
+Jul  3 17:36:10 10.71.61.0 tmp85579022-6115 close "/images/flags/TR.png" bytes read 3423 written 0
+Jul  3 17:36:10 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3423|0|0|0|2f696d616765732f666c6167732f54522e706e67|]
+Jul  3 17:36:12 10.71.61.0 tmp85579022-6115 open "/images/flags/TL.png" flags READ mode 0666
+Jul  3 17:36:12 10.71.61.0 tmp85579022-6115 close "/images/flags/TL.png" bytes read 3491 written 0
+Jul  3 17:36:12 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3491|0|0|0|2f696d616765732f666c6167732f544c2e706e67|]
+Jul  3 17:36:26 10.71.61.0 tmp85579022-6115 open "/images/flags/TJ.png" flags READ mode 0666
+Jul  3 17:36:26 10.71.61.0 tmp85579022-6115 close "/images/flags/TJ.png" bytes read 3173 written 0
+Jul  3 17:36:26 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3173|0|0|0|2f696d616765732f666c6167732f544a2e706e67|]
+Jul  3 17:36:37 10.71.61.0 tmp85579022-6115 open "/images/flags/TD.png" flags READ mode 0666
+Jul  3 17:36:37 10.71.61.0 tmp85579022-6115 close "/images/flags/TD.png" bytes read 3305 written 0
+Jul  3 17:36:37 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3305|0|0|0|2f696d616765732f666c6167732f54442e706e67|]
+Jul  3 17:36:42 10.71.61.0 tmp85579022-6115 open "/images/flags/SV.png" flags READ mode 0666
+Jul  3 17:36:42 10.71.61.0 tmp85579022-6115 close "/images/flags/SV.png" bytes read 3154 written 0
+Jul  3 17:36:42 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3154|0|0|0|2f696d616765732f666c6167732f53562e706e67|]
+Jul  3 17:36:45 10.71.61.0 tmp85579022-6115 open "/images/flags/SO.png" flags READ mode 0666
+Jul  3 17:36:46 10.71.61.0 tmp85579022-6115 close "/images/flags/SO.png" bytes read 3360 written 0
+Jul  3 17:36:46 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3360|0|0|0|2f696d616765732f666c6167732f534f2e706e67|]
+Jul  3 17:36:47 10.71.61.0 tmp85579022-6115 open "/images/flags/SN.png" flags READ mode 0666
+Jul  3 17:36:48 10.71.61.0 tmp85579022-6115 close "/images/flags/SN.png" bytes read 3424 written 0
+Jul  3 17:36:48 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3424|0|0|0|2f696d616765732f666c6167732f534e2e706e67|]
+Jul  3 17:36:50 10.71.61.0 tmp85579022-6115 open "/images/flags/SL.png" flags READ mode 0666
+Jul  3 17:36:50 10.71.61.0 tmp85579022-6115 close "/images/flags/SL.png" bytes read 3093 written 0
+Jul  3 17:36:50 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3093|0|0|0|2f696d616765732f666c6167732f534c2e706e67|]
+Jul  3 17:36:51 10.71.61.0 tmp85579022-6115 open "/images/flags/SG.png" flags READ mode 0666
+Jul  3 17:36:52 10.71.61.0 tmp85579022-6115 close "/images/flags/SG.png" bytes read 3213 written 0
+Jul  3 17:36:52 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3213|0|0|0|2f696d616765732f666c6167732f53472e706e67|]
+Jul  3 17:36:53 10.71.61.0 tmp85579022-6115 open "/images/flags/SE.png" flags READ mode 0666
+Jul  3 17:36:54 10.71.61.0 tmp85579022-6115 close "/images/flags/SE.png" bytes read 3285 written 0
+Jul  3 17:36:54 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3285|0|0|0|2f696d616765732f666c6167732f53452e706e67|]
+Jul  3 17:37:01 10.71.61.0 tmp85579022-6115 open "/images/flags/SA.png" flags READ mode 0666
+Jul  3 17:37:01 10.71.61.0 tmp85579022-6115 close "/images/flags/SA.png" bytes read 3364 written 0
+Jul  3 17:37:01 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3364|0|0|0|2f696d616765732f666c6167732f53412e706e67|]
+Jul  3 17:37:03 10.71.61.0 tmp85579022-6115 open "/images/flags/RW.png" flags READ mode 0666
+Jul  3 17:37:04 10.71.61.0 tmp85579022-6115 close "/images/flags/RW.png" bytes read 3212 written 0
+Jul  3 17:37:04 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3212|0|0|0|2f696d616765732f666c6167732f52572e706e67|]
+Jul  3 17:37:07 10.71.61.0 tmp85579022-6115 open "/images/flags/RU.png" flags READ mode 0666
+Jul  3 17:37:07 10.71.61.0 tmp85579022-6115 close "/images/flags/RU.png" bytes read 3099 written 0
+Jul  3 17:37:07 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3099|0|0|0|2f696d616765732f666c6167732f52552e706e67|]
+Jul  3 17:37:09 10.71.61.0 tmp85579022-6115 open "/images/flags/RO.png" flags READ mode 0666
+Jul  3 17:37:09 10.71.61.0 tmp85579022-6115 close "/images/flags/RO.png" bytes read 3298 written 0
+Jul  3 17:37:09 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3298|0|0|0|2f696d616765732f666c6167732f524f2e706e67|]
+Jul  3 17:37:10 10.71.61.0 tmp85579022-6115 open "/images/flags/QA.png" flags READ mode 0666
+Jul  3 17:37:11 10.71.61.0 tmp85579022-6115 close "/images/flags/QA.png" bytes read 3256 written 0
+Jul  3 17:37:11 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3256|0|0|0|2f696d616765732f666c6167732f51412e706e67|]
+Jul  3 17:37:20 10.71.61.0 tmp85579022-6115 open "/images/flags/PY.png" flags READ mode 0666
+Jul  3 17:37:20 10.71.61.0 tmp85579022-6115 close "/images/flags/PY.png" bytes read 3151 written 0
+Jul  3 17:37:20 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3151|0|0|0|2f696d616765732f666c6167732f50592e706e67|]
+Jul  3 17:37:22 10.71.61.0 tmp85579022-6115 open "/images/flags/PT.png" flags READ mode 0666
+Jul  3 17:37:22 10.71.61.0 tmp85579022-6115 close "/images/flags/PT.png" bytes read 3343 written 0
+Jul  3 17:37:22 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3343|0|0|0|2f696d616765732f666c6167732f50542e706e67|]
+Jul  3 17:37:40 10.71.61.0 tmp85579022-6115 open "/images/flags/PL.png" flags READ mode 0666
+Jul  3 17:37:41 10.71.61.0 tmp85579022-6115 close "/images/flags/PL.png" bytes read 3072 written 0
+Jul  3 17:37:41 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3072|0|0|0|2f696d616765732f666c6167732f504c2e706e67|]
+Jul  3 17:37:43 10.71.61.0 tmp85579022-6115 open "/images/flags/PK.png" flags READ mode 0666
+Jul  3 17:37:43 10.71.61.0 tmp85579022-6115 close "/images/flags/PK.png" bytes read 3494 written 0
+Jul  3 17:37:43 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3494|0|0|0|2f696d616765732f666c6167732f504b2e706e67|]
+Jul  3 17:37:49 10.71.61.0 tmp85579022-6115 open "/images/flags/PG.png" flags READ mode 0666
+Jul  3 17:37:50 10.71.61.0 tmp85579022-6115 close "/images/flags/PG.png" bytes read 3533 written 0
+Jul  3 17:37:50 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3533|0|0|0|2f696d616765732f666c6167732f50472e706e67|]
+Jul  3 17:37:51 10.71.61.0 tmp85579022-6115 open "/images/flags/PE.png" flags READ mode 0666
+Jul  3 17:37:52 10.71.61.0 tmp85579022-6115 close "/images/flags/PE.png" bytes read 3245 written 0
+Jul  3 17:37:52 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3245|0|0|0|2f696d616765732f666c6167732f50452e706e67|]
+Jul  3 17:37:54 10.71.61.0 tmp85579022-6115 open "/images/flags/PA.png" flags READ mode 0666
+Jul  3 17:37:54 10.71.61.0 tmp85579022-6115 close "/images/flags/PA.png" bytes read 3404 written 0
+Jul  3 17:37:54 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3404|0|0|0|2f696d616765732f666c6167732f50412e706e67|]
+Jul  3 17:37:56 10.71.61.0 tmp85579022-6115 open "/images/flags/OM.png" flags READ mode 0666
+Jul  3 17:37:56 10.71.61.0 tmp85579022-6115 close "/images/flags/OM.png" bytes read 3267 written 0
+Jul  3 17:37:56 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3267|0|0|0|2f696d616765732f666c6167732f4f4d2e706e67|]
+Jul  3 17:37:58 10.71.61.0 tmp85579022-6115 open "/images/flags/NO.png" flags READ mode 0666
+Jul  3 17:37:58 10.71.61.0 tmp85579022-6115 close "/images/flags/NO.png" bytes read 3328 written 0
+Jul  3 17:37:58 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3328|0|0|0|2f696d616765732f666c6167732f4e4f2e706e67|]
+Jul  3 17:38:00 10.71.61.0 tmp85579022-6115 open "/images/flags/NL.png" flags READ mode 0666
+Jul  3 17:38:00 10.71.61.0 tmp85579022-6115 close "/images/flags/NL.png" bytes read 3070 written 0
+Jul  3 17:38:00 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3070|0|0|0|2f696d616765732f666c6167732f4e4c2e706e67|]
+Jul  3 17:38:02 10.71.61.0 tmp85579022-6115 open "/images/flags/NI.png" flags READ mode 0666
+Jul  3 17:38:03 10.71.61.0 tmp85579022-6115 close "/images/flags/NI.png" bytes read 3154 written 0
+Jul  3 17:38:03 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3154|0|0|0|2f696d616765732f666c6167732f4e492e706e67|]
+Jul  3 17:38:13 10.71.61.0 tmp85579022-6115 open "/images/flags/NG.png" flags READ mode 0666
+Jul  3 17:38:14 10.71.61.0 tmp85579022-6115 close "/images/flags/NG.png" bytes read 3250 written 0
+Jul  3 17:38:14 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3250|0|0|0|2f696d616765732f666c6167732f4e472e706e67|]
+Jul  3 17:38:15 10.71.61.0 tmp85579022-6115 open "/images/flags/NE.png" flags READ mode 0666
+Jul  3 17:38:16 10.71.61.0 tmp85579022-6115 close "/images/flags/NE.png" bytes read 3162 written 0
+Jul  3 17:38:16 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3162|0|0|0|2f696d616765732f666c6167732f4e452e706e67|]
+Jul  3 17:38:17 10.71.61.0 tmp85579022-6115 open "/images/flags/NA.png" flags READ mode 0666
+Jul  3 17:38:18 10.71.61.0 tmp85579022-6115 close "/images/flags/NA.png" bytes read 3749 written 0
+Jul  3 17:38:18 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3749|0|0|0|2f696d616765732f666c6167732f4e412e706e67|]
+Jul  3 17:38:20 10.71.61.0 tmp85579022-6115 open "/images/flags/MX.png" flags READ mode 0666
+Jul  3 17:38:20 10.71.61.0 tmp85579022-6115 close "/images/flags/MX.png" bytes read 3418 written 0
+Jul  3 17:38:20 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3418|0|0|0|2f696d616765732f666c6167732f4d582e706e67|]
+Jul  3 17:38:22 10.71.61.0 tmp85579022-6115 open "/images/flags/MT.png" flags READ mode 0666
+Jul  3 17:38:22 10.71.61.0 tmp85579022-6115 close "/images/flags/MT.png" bytes read 3292 written 0
+Jul  3 17:38:22 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3292|0|0|0|2f696d616765732f666c6167732f4d542e706e67|]
+Jul  3 17:38:24 10.71.61.0 tmp85579022-6115 open "/images/flags/MM.png" flags READ mode 0666
+Jul  3 17:38:24 10.71.61.0 tmp85579022-6115 close "/images/flags/MM.png" bytes read 3512 written 0
+Jul  3 17:38:24 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3512|0|0|0|2f696d616765732f666c6167732f4d4d2e706e67|]
+Jul  3 17:38:26 10.71.61.0 tmp85579022-6115 open "/images/flags/ML.png" flags READ mode 0666
+Jul  3 17:38:27 10.71.61.0 tmp85579022-6115 close "/images/flags/ML.png" bytes read 3316 written 0
+Jul  3 17:38:27 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3316|0|0|0|2f696d616765732f666c6167732f4d4c2e706e67|]
+Jul  3 17:38:37 10.71.61.0 tmp85579022-6115 open "/images/flags/MK.png" flags READ mode 0666
+Jul  3 17:38:38 10.71.61.0 tmp85579022-6115 close "/images/flags/MK.png" bytes read 3815 written 0
+Jul  3 17:38:38 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3815|0|0|0|2f696d616765732f666c6167732f4d4b2e706e67|]
+Jul  3 17:38:40 10.71.61.0 tmp85579022-6115 open "/images/flags/MG.png" flags READ mode 0666
+Jul  3 17:38:40 10.71.61.0 tmp85579022-6115 close "/images/flags/MG.png" bytes read 3195 written 0
+Jul  3 17:38:40 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3195|0|0|0|2f696d616765732f666c6167732f4d472e706e67|]
+Jul  3 17:38:42 10.71.61.0 tmp85579022-6115 open "/images/flags/LV.png" flags READ mode 0666
+Jul  3 17:38:42 10.71.61.0 tmp85579022-6115 close "/images/flags/LV.png" bytes read 3097 written 0
+Jul  3 17:38:42 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3097|0|0|0|2f696d616765732f666c6167732f4c562e706e67|]
+Jul  3 17:38:45 10.71.61.0 tmp85579022-6115 open "/images/flags/LU.png" flags READ mode 0666
+Jul  3 17:38:46 10.71.61.0 tmp85579022-6115 close "/images/flags/LU.png" bytes read 3074 written 0
+Jul  3 17:38:46 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3074|0|0|0|2f696d616765732f666c6167732f4c552e706e67|]
+Jul  3 17:38:48 10.71.61.0 tmp85579022-6115 open "/images/flags/LS.png" flags READ mode 0666
+Jul  3 17:38:48 10.71.61.0 tmp85579022-6115 close "/images/flags/LS.png" bytes read 3150 written 0
+Jul  3 17:38:48 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3150|0|0|0|2f696d616765732f666c6167732f4c532e706e67|]
+Jul  3 17:38:50 10.71.61.0 tmp85579022-6115 open "/images/flags/LC.png" flags READ mode 0666
+Jul  3 17:38:50 10.71.61.0 tmp85579022-6115 close "/images/flags/LC.png" bytes read 3317 written 0
+Jul  3 17:38:50 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3317|0|0|0|2f696d616765732f666c6167732f4c432e706e67|]
+Jul  3 17:38:52 10.71.61.0 tmp85579022-6115 open "/images/flags/LB.png" flags READ mode 0666
+Jul  3 17:38:53 10.71.61.0 tmp85579022-6115 close "/images/flags/LB.png" bytes read 3189 written 0
+Jul  3 17:38:53 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3189|0|0|0|2f696d616765732f666c6167732f4c422e706e67|]
+Jul  3 17:38:57 10.71.61.0 tmp85579022-6115 open "/images/flags/LA.png" flags READ mode 0666
+Jul  3 17:38:57 10.71.61.0 tmp85579022-6115 close "/images/flags/LA.png" bytes read 3264 written 0
+Jul  3 17:38:57 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3264|0|0|0|2f696d616765732f666c6167732f4c412e706e67|]
+Jul  3 17:39:00 10.71.61.0 tmp85579022-6115 open "/images/flags/KZ.png" flags READ mode 0666
+Jul  3 17:39:00 10.71.61.0 tmp85579022-6115 close "/images/flags/KZ.png" bytes read 3476 written 0
+Jul  3 17:39:00 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3476|0|0|0|2f696d616765732f666c6167732f4b5a2e706e67|]
+Jul  3 17:39:20 10.71.61.0 tmp85579022-6115 open "/images/flags/KW.png" flags READ mode 0666
+Jul  3 17:39:21 10.71.61.0 tmp85579022-6115 close "/images/flags/KW.png" bytes read 3248 written 0
+Jul  3 17:39:21 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3248|0|0|0|2f696d616765732f666c6167732f4b572e706e67|]
+Jul  3 17:39:25 10.71.61.0 tmp85579022-6115 open "/images/flags/KR.png" flags READ mode 0666
+Jul  3 17:39:25 10.71.61.0 tmp85579022-6115 close "/images/flags/KR.png" bytes read 3386 written 0
+Jul  3 17:39:25 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3386|0|0|0|2f696d616765732f666c6167732f4b522e706e67|]
+Jul  3 17:39:27 10.71.61.0 tmp85579022-6115 open "/images/flags/KP.png" flags READ mode 0666
+Jul  3 17:39:27 10.71.61.0 tmp85579022-6115 close "/images/flags/KP.png" bytes read 3271 written 0
+Jul  3 17:39:27 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3271|0|0|0|2f696d616765732f666c6167732f4b502e706e67|]
+Jul  3 17:39:28 10.71.61.0 tmp85579022-6115 open "/images/flags/KN.png" flags READ mode 0666
+Jul  3 17:39:29 10.71.61.0 tmp85579022-6115 close "/images/flags/KN.png" bytes read 3727 written 0
+Jul  3 17:39:29 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3727|0|0|0|2f696d616765732f666c6167732f4b4e2e706e67|]
+Jul  3 17:39:30 10.71.61.0 tmp85579022-6115 open "/images/flags/KG.png" flags READ mode 0666
+Jul  3 17:39:31 10.71.61.0 tmp85579022-6115 close "/images/flags/KG.png" bytes read 3391 written 0
+Jul  3 17:39:31 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3391|0|0|0|2f696d616765732f666c6167732f4b472e706e67|]
+Jul  3 17:39:32 10.71.61.0 tmp85579022-6115 open "/images/flags/JP.png" flags READ mode 0666
+Jul  3 17:39:33 10.71.61.0 tmp85579022-6115 close "/images/flags/JP.png" bytes read 3283 written 0
+Jul  3 17:39:33 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3283|0|0|0|2f696d616765732f666c6167732f4a502e706e67|]
+Jul  3 17:39:34 10.71.61.0 tmp85579022-6115 open "/images/flags/JO.png" flags READ mode 0666
+Jul  3 17:39:34 10.71.61.0 tmp85579022-6115 close "/images/flags/JO.png" bytes read 3375 written 0
+Jul  3 17:39:34 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3375|0|0|0|2f696d616765732f666c6167732f4a4f2e706e67|]
+Jul  3 17:39:41 10.71.61.0 tmp85579022-6115 open "/images/flags/JM.png" flags READ mode 0666
+Jul  3 17:39:42 10.71.61.0 tmp85579022-6115 close "/images/flags/JM.png" bytes read 3798 written 0
+Jul  3 17:39:42 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3798|0|0|0|2f696d616765732f666c6167732f4a4d2e706e67|]
+Jul  3 17:39:43 10.71.61.0 tmp85579022-6115 open "/images/flags/IT.png" flags READ mode 0666
+Jul  3 17:39:43 10.71.61.0 tmp85579022-6115 close "/images/flags/IT.png" bytes read 3264 written 0
+Jul  3 17:39:43 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3264|0|0|0|2f696d616765732f666c6167732f49542e706e67|]
+Jul  3 17:39:53 10.71.61.0 tmp85579022-6115 open "/images/flags/IR.png" flags READ mode 0666
+Jul  3 17:39:54 10.71.61.0 tmp85579022-6115 close "/images/flags/IR.png" bytes read 3222 written 0
+Jul  3 17:39:54 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3222|0|0|0|2f696d616765732f666c6167732f49522e706e67|]
+Jul  3 17:39:56 10.71.61.0 tmp85579022-6115 open "/images/flags/IQ.png" flags READ mode 0666
+Jul  3 17:39:56 10.71.61.0 tmp85579022-6115 close "/images/flags/IQ.png" bytes read 3118 written 0
+Jul  3 17:39:56 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3118|0|0|0|2f696d616765732f666c6167732f49512e706e67|]
+Jul  3 17:39:58 10.71.61.0 tmp85579022-6115 open "/images/flags/IN.png" flags READ mode 0666
+Jul  3 17:39:59 10.71.61.0 tmp85579022-6115 close "/images/flags/IN.png" bytes read 3150 written 0
+Jul  3 17:39:59 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3150|0|0|0|2f696d616765732f666c6167732f494e2e706e67|]
+Jul  3 17:40:00 10.71.61.0 tmp85579022-6115 open "/images/flags/IL.png" flags READ mode 0666
+Jul  3 17:40:00 10.71.61.0 tmp85579022-6115 close "/images/flags/IL.png" bytes read 3262 written 0
+Jul  3 17:40:00 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3262|0|0|0|2f696d616765732f666c6167732f494c2e706e67|]
+Jul  3 17:40:02 10.71.61.0 tmp85579022-6115 open "/images/flags/IE.png" flags READ mode 0666
+Jul  3 17:40:03 10.71.61.0 tmp85579022-6115 close "/images/flags/IE.png" bytes read 3266 written 0
+Jul  3 17:40:03 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3266|0|0|0|2f696d616765732f666c6167732f49452e706e67|]
+Jul  3 17:40:26 10.71.61.0 tmp85579022-6115 open "/images/flags/ID.png" flags READ mode 0666
+Jul  3 17:40:26 10.71.61.0 tmp85579022-6115 close "/images/flags/ID.png" bytes read 3084 written 0
+Jul  3 17:40:26 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3084|0|0|0|2f696d616765732f666c6167732f49442e706e67|]
+Jul  3 17:40:28 10.71.61.0 tmp85579022-6115 open "/images/flags/HU.png" flags READ mode 0666
+Jul  3 17:40:28 10.71.61.0 tmp85579022-6115 close "/images/flags/HU.png" bytes read 3098 written 0
+Jul  3 17:40:28 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3098|0|0|0|2f696d616765732f666c6167732f48552e706e67|]
+Jul  3 17:40:30 10.71.61.0 tmp85579022-6115 open "/images/flags/HT.png" flags READ mode 0666
+Jul  3 17:40:30 10.71.61.0 tmp85579022-6115 close "/images/flags/HT.png" bytes read 3390 written 0
+Jul  3 17:40:30 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3390|0|0|0|2f696d616765732f666c6167732f48542e706e67|]
+Jul  3 17:40:32 10.71.61.0 tmp85579022-6115 open "/images/flags/HN.png" flags READ mode 0666
+Jul  3 17:40:32 10.71.61.0 tmp85579022-6115 close "/images/flags/HN.png" bytes read 3156 written 0
+Jul  3 17:40:32 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3156|0|0|0|2f696d616765732f666c6167732f484e2e706e67|]
+Jul  3 17:40:52 10.71.61.0 tmp85579022-6115 open "/images/flags/GT.png" flags READ mode 0666
+Jul  3 17:40:52 10.71.61.0 tmp85579022-6115 close "/images/flags/GT.png" bytes read 3291 written 0
+Jul  3 17:40:52 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3291|0|0|0|2f696d616765732f666c6167732f47542e706e67|]
+Jul  3 17:40:56 10.71.61.0 tmp85579022-6115 open "/images/flags/GM.png" flags READ mode 0666
+Jul  3 17:40:56 10.71.61.0 tmp85579022-6115 close "/images/flags/GM.png" bytes read 3145 written 0
+Jul  3 17:40:56 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3145|0|0|0|2f696d616765732f666c6167732f474d2e706e67|]
+Jul  3 17:40:57 10.71.61.0 tmp85579022-6115 open "/images/flags/GB.png" flags READ mode 0666
+Jul  3 17:40:58 10.71.61.0 tmp85579022-6115 close "/images/flags/GB.png" bytes read 3543 written 0
+Jul  3 17:40:58 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3543|0|0|0|2f696d616765732f666c6167732f47422e706e67|]
+Jul  3 17:40:59 10.71.61.0 tmp85579022-6115 open "/images/flags/GA.png" flags READ mode 0666
+Jul  3 17:40:59 10.71.61.0 tmp85579022-6115 close "/images/flags/GA.png" bytes read 3151 written 0
+Jul  3 17:40:59 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3151|0|0|0|2f696d616765732f666c6167732f47412e706e67|]
+Jul  3 17:41:00 10.71.61.0 tmp85579022-6115 open "/images/flags/FR.png" flags READ mode 0666
+Jul  3 17:41:01 10.71.61.0 tmp85579022-6115 close "/images/flags/FR.png" bytes read 3248 written 0
+Jul  3 17:41:01 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3248|0|0|0|2f696d616765732f666c6167732f46522e706e67|]
+Jul  3 17:41:02 10.71.61.0 tmp85579022-6115 open "/images/flags/FI.png" flags READ mode 0666
+Jul  3 17:41:03 10.71.61.0 tmp85579022-6115 close "/images/flags/FI.png" bytes read 3271 written 0
+Jul  3 17:41:03 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3271|0|0|0|2f696d616765732f666c6167732f46492e706e67|]
+Jul  3 17:42:20 10.71.61.0 tmp85579022-6115 open "/images/flags/FI.png" flags READ mode 0666
+Jul  3 17:42:21 10.71.61.0 tmp85579022-6115 close "/images/flags/FI.png" bytes read 3271 written 0
+Jul  3 17:42:21 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3271|0|0|0|2f696d616765732f666c6167732f46492e706e67|]
+Jul  3 17:42:23 10.71.61.0 tmp85579022-6115 open "/images/flags/ES.png" flags READ mode 0666
+Jul  3 17:42:23 10.71.61.0 tmp85579022-6115 close "/images/flags/ES.png" bytes read 3263 written 0
+Jul  3 17:42:23 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3263|0|0|0|2f696d616765732f666c6167732f45532e706e67|]
+Jul  3 17:42:26 10.71.61.0 tmp85579022-6115 open "/images/flags/EG.png" flags READ mode 0666
+Jul  3 17:42:26 10.71.61.0 tmp85579022-6115 close "/images/flags/EG.png" bytes read 3197 written 0
+Jul  3 17:42:26 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3197|0|0|0|2f696d616765732f666c6167732f45472e706e67|]
+Jul  3 17:43:18 10.71.61.0 tmp85579022-6115 open "/images/flags/EE.png" flags READ mode 0666
+Jul  3 17:43:18 10.71.61.0 tmp85579022-6115 close "/images/flags/EE.png" bytes read 3073 written 0
+Jul  3 17:43:18 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3073|0|0|0|2f696d616765732f666c6167732f45452e706e67|]
+Jul  3 17:43:20 10.71.61.0 tmp85579022-6115 open "/images/flags/DZ.png" flags READ mode 0666
+Jul  3 17:43:21 10.71.61.0 tmp85579022-6115 close "/images/flags/DZ.png" bytes read 3500 written 0
+Jul  3 17:43:21 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3500|0|0|0|2f696d616765732f666c6167732f445a2e706e67|]
+Jul  3 17:43:23 10.71.61.0 tmp85579022-6115 open "/images/flags/DK.png" flags READ mode 0666
+Jul  3 17:43:23 10.71.61.0 tmp85579022-6115 close "/images/flags/DK.png" bytes read 3284 written 0
+Jul  3 17:43:23 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3284|0|0|0|2f696d616765732f666c6167732f444b2e706e67|]
+Jul  3 17:43:38 10.71.61.0 tmp85579022-6115 open "/images/flags/DJ.png" flags READ mode 0666
+Jul  3 17:43:39 10.71.61.0 tmp85579022-6115 close "/images/flags/DJ.png" bytes read 3452 written 0
+Jul  3 17:43:39 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3452|0|0|0|2f696d616765732f666c6167732f444a2e706e67|]
+Jul  3 17:43:41 10.71.61.0 tmp85579022-6115 open "/images/flags/DE.png" flags READ mode 0666
+Jul  3 17:43:42 10.71.61.0 tmp85579022-6115 close "/images/flags/DE.png" bytes read 3109 written 0
+Jul  3 17:43:42 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3109|0|0|0|2f696d616765732f666c6167732f44452e706e67|]
+Jul  3 17:43:44 10.71.61.0 tmp85579022-6115 open "/images/flags/CZ.png" flags READ mode 0666
+Jul  3 17:43:44 10.71.61.0 tmp85579022-6115 close "/images/flags/CZ.png" bytes read 3332 written 0
+Jul  3 17:43:44 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3332|0|0|0|2f696d616765732f666c6167732f435a2e706e67|]
+Jul  3 17:43:53 10.71.61.0 tmp85579022-6115 open "/images/flags/CO.png" flags READ mode 0666
+Jul  3 17:43:53 10.71.61.0 tmp85579022-6115 close "/images/flags/CO.png" bytes read 3136 written 0
+Jul  3 17:43:53 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3136|0|0|0|2f696d616765732f666c6167732f434f2e706e67|]
+Jul  3 17:43:55 10.71.61.0 tmp85579022-6115 open "/images/flags/CN.png" flags READ mode 0666
+Jul  3 17:43:56 10.71.61.0 tmp85579022-6115 close "/images/flags/CN.png" bytes read 3433 written 0
+Jul  3 17:43:56 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3433|0|0|0|2f696d616765732f666c6167732f434e2e706e67|]
+Jul  3 17:43:58 10.71.61.0 tmp85579022-6115 open "/images/flags/CM.png" flags READ mode 0666
+Jul  3 17:43:58 10.71.61.0 tmp85579022-6115 close "/images/flags/CM.png" bytes read 3433 written 0
+Jul  3 17:43:58 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3433|0|0|0|2f696d616765732f666c6167732f434d2e706e67|]
+Jul  3 17:44:01 10.71.61.0 tmp85579022-6115 open "/images/flags/CL.png" flags READ mode 0666
+Jul  3 17:44:01 10.71.61.0 tmp85579022-6115 close "/images/flags/CL.png" bytes read 3252 written 0
+Jul  3 17:44:01 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3252|0|0|0|2f696d616765732f666c6167732f434c2e706e67|]
+Jul  3 17:44:23 10.71.61.0 tmp85579022-6115 open "/images/flags/CH.png" flags READ mode 0666
+Jul  3 17:44:24 10.71.61.0 tmp85579022-6115 close "/images/flags/CH.png" bytes read 3306 written 0
+Jul  3 17:44:24 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3306|0|0|0|2f696d616765732f666c6167732f43482e706e67|]
+Jul  3 17:44:33 10.71.61.0 tmp85579022-6115 open "/images/flags/CG.png" flags READ mode 0666
+Jul  3 17:44:33 10.71.61.0 tmp85579022-6115 close "/images/flags/CG.png" bytes read 3494 written 0
+Jul  3 17:44:33 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3494|0|0|0|2f696d616765732f666c6167732f43472e706e67|]
+Jul  3 17:44:35 10.71.61.0 tmp85579022-6115 open "/images/flags/CD.png" flags READ mode 0666
+Jul  3 17:44:35 10.71.61.0 tmp85579022-6115 close "/images/flags/CD.png" bytes read 3742 written 0
+Jul  3 17:44:35 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3742|0|0|0|2f696d616765732f666c6167732f43442e706e67|]
+Jul  3 17:44:53 10.71.61.0 tmp85579022-6115 open "/images/flags/CA.png" flags READ mode 0666
+Jul  3 17:44:53 10.71.61.0 tmp85579022-6115 close "/images/flags/CA.png" bytes read 3348 written 0
+Jul  3 17:44:53 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3348|0|0|0|2f696d616765732f666c6167732f43412e706e67|]
+Jul  3 17:44:56 10.71.61.0 tmp85579022-6115 open "/images/flags/BR.png" flags READ mode 0666
+Jul  3 17:44:57 10.71.61.0 tmp85579022-6115 close "/images/flags/BR.png" bytes read 3594 written 0
+Jul  3 17:44:57 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3594|0|0|0|2f696d616765732f666c6167732f42522e706e67|]
+Jul  3 17:44:59 10.71.61.0 tmp85579022-6115 open "/images/flags/BO.png" flags READ mode 0666
+Jul  3 17:44:59 10.71.61.0 tmp85579022-6115 close "/images/flags/BO.png" bytes read 3134 written 0
+Jul  3 17:44:59 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3134|0|0|0|2f696d616765732f666c6167732f424f2e706e67|]
+Jul  3 17:45:01 10.71.61.0 tmp85579022-6115 open "/images/flags/BG.png" flags READ mode 0666
+Jul  3 17:45:01 10.71.61.0 tmp85579022-6115 close "/images/flags/BG.png" bytes read 3096 written 0
+Jul  3 17:45:01 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3096|0|0|0|2f696d616765732f666c6167732f42472e706e67|]
+Jul  3 17:45:03 10.71.61.0 tmp85579022-6115 open "/images/flags/BF.png" flags READ mode 0666
+Jul  3 17:45:03 10.71.61.0 tmp85579022-6115 close "/images/flags/BF.png" bytes read 3434 written 0
+Jul  3 17:45:03 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3434|0|0|0|2f696d616765732f666c6167732f42462e706e67|]
+Jul  3 17:45:04 10.71.61.0 tmp85579022-6115 open "/images/flags/BE.png" flags READ mode 0666
+Jul  3 17:45:05 10.71.61.0 tmp85579022-6115 close "/images/flags/BE.png" bytes read 3228 written 0
+Jul  3 17:45:05 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3228|0|0|0|2f696d616765732f666c6167732f42452e706e67|]
+Jul  3 17:45:06 10.71.61.0 tmp85579022-6115 open "/images/flags/AU.png" flags READ mode 0666
+Jul  3 17:45:07 10.71.61.0 tmp85579022-6115 close "/images/flags/AU.png" bytes read 3488 written 0
+Jul  3 17:45:07 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|3488|0|0|0|2f696d616765732f666c6167732f41552e706e67|]
+Jul  3 17:45:14 10.71.61.0 tmp85579022-6115 open "/images/flags/AT.png" flags READ mode 0666
+Jul  3 17:45:14 10.71.61.0 tmp85579022-6115 close "/images/flags/AT.png" bytes read 3080 written 0
+Jul  3 17:45:14 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3080|0|0|0|2f696d616765732f666c6167732f41542e706e67|]
+Jul  3 17:45:17 10.71.61.0 tmp85579022-6115 open "/images/flags/AR.png" flags READ mode 0666
+Jul  3 17:45:17 10.71.61.0 tmp85579022-6115 close "/images/flags/AR.png" bytes read 3151 written 0
+Jul  3 17:45:17 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3151|0|0|0|2f696d616765732f666c6167732f41522e706e67|]
+Jul  3 17:45:26 10.71.61.0 tmp85579022-6115 open "/images/flags/AM.png" flags READ mode 0666
+Jul  3 17:45:26 10.71.61.0 tmp85579022-6115 close "/images/flags/AM.png" bytes read 3135 written 0
+Jul  3 17:45:26 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3135|0|0|0|2f696d616765732f666c6167732f414d2e706e67|]
+Jul  3 17:45:36 10.71.61.0 tmp85579022-6115 open "/images/flags/AG.png" flags READ mode 0666
+Jul  3 17:45:36 10.71.61.0 tmp85579022-6115 close "/images/flags/AG.png" bytes read 3543 written 0
+Jul  3 17:45:36 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3543|0|0|0|2f696d616765732f666c6167732f41472e706e67|]
+Jul  3 17:45:38 10.71.61.0 tmp85579022-6115 open "/images/flags/AE.png" flags READ mode 0666
+Jul  3 17:45:38 10.71.61.0 tmp85579022-6115 close "/images/flags/AE.png" bytes read 3213 written 0
+Jul  3 17:45:38 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3213|0|0|0|2f696d616765732f666c6167732f41452e706e67|]
+Jul  3 17:45:40 10.71.61.0 tmp85579022-6115 open "/images/flags/AD.png" flags READ mode 0666
+Jul  3 17:45:40 10.71.61.0 tmp85579022-6115 close "/images/flags/AD.png" bytes read 3276 written 0
+Jul  3 17:45:40 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3276|0|0|0|2f696d616765732f666c6167732f41442e706e67|]
+Jul  3 17:46:30 10.71.61.0 tmp85579022-6115 open "/css/coming-sssoon.css" flags READ mode 0666
+Jul  3 17:46:31 10.71.61.0 tmp85579022-6115 close "/css/coming-sssoon.css" bytes read 25082 written 0
+Jul  3 17:46:31 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|25082|0|0|0|2f6373732f636f6d696e672d7373736f6f6e2e637373|]
+Jul  3 17:46:33 10.71.61.0 tmp85579022-6115 open "/css/coming-sssoon-demo.css" flags READ mode 0666
+Jul  3 17:46:33 10.71.61.0 tmp85579022-6115 close "/css/coming-sssoon-demo.css" bytes read 3234 written 0
+Jul  3 17:46:33 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|0|3234|0|0|0|2f6373732f636f6d696e672d7373736f6f6e2d64656d6f2e637373|]
+Jul  3 17:46:35 10.71.61.0 tmp85579022-6115 open "/css/bootstrap.css" flags READ mode 0666
+Jul  3 17:46:36 10.71.61.0 tmp85579022-6115 close "/css/bootstrap.css" bytes read 126432 written 0
+Jul  3 17:46:36 10.71.61.0 tmp85579022-6115 [10.71.61.0|get|1|126432|0|0|0|2f6373732f626f6f7473747261702e637373|]
+Jul  3 17:51:36 10.71.61.0 tmp85579022-6115 session closed for local user tmp85579022-6115 from [10.71.61.0]
+Jul  3 17:51:36 10.71.61.0 tmp85579022-6115 Connection closed by 10.71.61.0 port 49054
+Jul  3 18:03:15 10.71.61.0 tmp85579022-8168 Connection from 10.71.61.0 port 12110 on 74.208.59.129 port 22 rdomain ""
+Jul  3 18:03:16 10.71.61.0 tmp85579022-8168 Accepted password for tmp85579022-8168 from 10.71.61.0 port 12110 ssh2
+Jul  3 18:03:16 10.71.61.0 tmp85579022-8168 Starting session: subsystem 'sftp' for tmp85579022-8168 from 10.71.61.0 port 12110 id 0
+Jul  3 18:03:16 10.71.61.0 tmp85579022-8168 session opened for local user tmp85579022-8168 from [10.71.61.0]
+Jul  3 18:05:59 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/recaptcha.php" flags READ mode 0666
+Jul  3 18:06:00 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/recaptcha.php" bytes read 742 written 0
+Jul  3 18:06:00 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|1|742|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f7265636170746368612e706870|]
+Jul  3 18:06:02 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/metatags.jpg" flags READ mode 0666
+Jul  3 18:06:03 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/metatags.jpg" bytes read 29807 written 0
+Jul  3 18:06:03 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|1|29807|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f6d657461746167732e6a7067|]
+Jul  3 18:06:05 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/index.php" flags READ mode 0666
+Jul  3 18:06:05 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/index.php" bytes read 8415 written 0
+Jul  3 18:06:05 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|8415|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f696e6465782e706870|]
+Jul  3 18:06:08 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/bolsa_trabajo.php" flags READ mode 0666
+Jul  3 18:06:08 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/bolsa_trabajo.php" bytes read 6241 written 0
+Jul  3 18:06:08 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|6241|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f626f6c73615f74726162616a6f2e706870|]
+Jul  3 18:06:10 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/avisodeprivacidad.pdf" flags READ mode 0666
+Jul  3 18:06:11 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/avisodeprivacidad.pdf" bytes read 519388 written 0
+Jul  3 18:06:11 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|1|519388|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f617669736f6465707269766163696461642e706466|]
+Jul  3 18:06:14 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/.htaccess" flags READ mode 0666
+Jul  3 18:06:14 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/.htaccess" bytes read 119 written 0
+Jul  3 18:06:14 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|119|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f2e6874616363657373|]
+Jul  3 18:07:21 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/.metadata/installation-files" flags READ mode 0666
+Jul  3 18:07:21 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/.metadata/installation-files" bytes read 67128 written 0
+Jul  3 18:07:21 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|67128|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f2e6d657461646174612f696e7374616c6c6174696f6e2d66696c6573|]
+Jul  3 18:07:25 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/.metadata/index.php" flags READ mode 0666
+Jul  3 18:07:25 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/.metadata/index.php" bytes read 17 written 0
+Jul  3 18:07:25 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|17|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f2e6d657461646174612f696e6465782e706870|]
+Jul  3 18:07:28 10.71.61.0 tmp85579022-8168 open "/clickandbuilds/GrupoOnix/.metadata/application" flags READ mode 0666
+Jul  3 18:07:28 10.71.61.0 tmp85579022-8168 close "/clickandbuilds/GrupoOnix/.metadata/application" bytes read 47 written 0
+Jul  3 18:07:28 10.71.61.0 tmp85579022-8168 [10.71.61.0|get|0|47|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f2e6d657461646174612f6170706c69636174696f6e|]
+Jul  3 18:12:50 10.71.61.0 tmp85579022-8168 session closed for local user tmp85579022-8168 from [10.71.61.0]
+Jul  3 18:12:50 10.71.61.0 tmp85579022-8168 Connection closed by 10.71.61.0 port 12110
+Jul  3 18:20:24 10.71.61.0 tmp85579022-5879 Connection from 10.71.61.0 port 50314 on 74.208.59.129 port 22 rdomain ""
+Jul  3 18:20:24 10.71.61.0 tmp85579022-5879 Accepted password for tmp85579022-5879 from 10.71.61.0 port 50314 ssh2
+Jul  3 18:20:25 10.71.61.0 tmp85579022-5879 Starting session: subsystem 'sftp' for tmp85579022-5879 from 10.71.61.0 port 50314 id 0
+Jul  3 18:20:25 10.71.61.0 tmp85579022-5879 session opened for local user tmp85579022-5879 from [10.71.61.0]
+Jul  3 18:25:28 10.71.61.0 tmp85579022-5879 Connection closed by 10.71.61.0 port 50314
+Jul  3 18:25:28 10.71.61.0 tmp85579022-5879 session closed for local user tmp85579022-5879 from [10.71.61.0]
+Jul  3 18:26:56 10.71.61.0 tmp85579022-4380 Connection from 10.71.61.0 port 52530 on 74.208.59.129 port 22 rdomain ""
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 Accepted password for tmp85579022-4380 from 10.71.61.0 port 52530 ssh2
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 Starting session: subsystem 'sftp' for tmp85579022-4380 from 10.71.61.0 port 52530 id 0
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 session opened for local user tmp85579022-4380 from [10.71.61.0]
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/recover-password.php" flags READ mode 0666
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/recover-password.php" bytes read 6305 written 0
+Jul  3 18:26:57 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|6305|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f7265636f7665722d70617373776f72642e706870|]
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/gulpfile.js" flags READ mode 0666
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/gulpfile.js" bytes read 2168 written 0
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|2168|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f67756c7066696c652e6a73|]
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/home.php" flags READ mode 0666
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/home.php" bytes read 5838 written 0
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|5838|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f686f6d652e706870|]
+Jul  3 18:26:58 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/index.php" flags READ mode 0666
+Jul  3 18:26:59 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/index.php" bytes read 6750 written 0
+Jul  3 18:26:59 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|6750|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f696e6465782e706870|]
+Jul  3 18:27:40 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/error_log" flags READ mode 0666
+Jul  3 18:27:41 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/error_log" bytes read 4553 written 0
+Jul  3 18:27:41 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|4553|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6572726f725f6c6f67|]
+Jul  3 18:27:48 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/.DS_Store" flags READ mode 0666
+Jul  3 18:27:48 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/.DS_Store" bytes read 6148 written 0
+Jul  3 18:27:48 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|6148|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f2e44535f53746f7265|]
+Jul  3 18:29:08 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/.DS_Store" flags READ mode 0666
+Jul  3 18:29:08 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/.DS_Store" bytes read 6148 written 0
+Jul  3 18:29:08 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|6148|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f2e44535f53746f7265|]
+Jul  3 18:31:02 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/vendors.min.css" flags READ mode 0666
+Jul  3 18:31:02 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/vendors.min.css" bytes read 0 written 0
+Jul  3 18:31:02 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f76656e646f72732e6d696e2e637373|]
+Jul  3 18:31:08 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/vendors.css" flags READ mode 0666
+Jul  3 18:31:08 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/vendors.css" bytes read 248 written 0
+Jul  3 18:31:08 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|248|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f76656e646f72732e637373|]
+Jul  3 18:31:11 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/components.min.css" flags READ mode 0666
+Jul  3 18:31:12 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/components.min.css" bytes read 115224 written 0
+Jul  3 18:31:12 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|115224|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f6d706f6e656e74732e6d696e2e637373|]
+Jul  3 18:31:15 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/components.css" flags READ mode 0666
+Jul  3 18:31:15 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/components.css" bytes read 153664 written 0
+Jul  3 18:31:15 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|153664|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f6d706f6e656e74732e637373|]
+Jul  3 18:31:18 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/colors.min.css" flags READ mode 0666
+Jul  3 18:31:19 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/colors.min.css" bytes read 271617 written 0
+Jul  3 18:31:19 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|271617|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f6c6f72732e6d696e2e637373|]
+Jul  3 18:31:28 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/colors.css" flags READ mode 0666
+Jul  3 18:31:29 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/colors.css" bytes read 371672 written 0
+Jul  3 18:31:29 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|371672|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f6c6f72732e637373|]
+Jul  3 18:31:42 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap.min.css" flags READ mode 0666
+Jul  3 18:31:43 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap.min.css" bytes read 178625 written 0
+Jul  3 18:31:43 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|178625|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f626f6f7473747261702e6d696e2e637373|]
+Jul  3 18:31:45 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap.css" flags READ mode 0666
+Jul  3 18:31:46 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap.css" bytes read 252000 written 0
+Jul  3 18:31:46 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|252000|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f626f6f7473747261702e637373|]
+Jul  3 18:31:48 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap-extended.min.css" flags READ mode 0666
+Jul  3 18:31:48 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap-extended.min.css" bytes read 50086 written 0
+Jul  3 18:31:48 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|50086|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f626f6f7473747261702d657874656e6465642e6d696e2e637373|]
+Jul  3 18:31:52 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap-extended.css" flags READ mode 0666
+Jul  3 18:31:53 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/bootstrap-extended.css" bytes read 70184 written 0
+Jul  3 18:31:53 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|70184|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f626f6f7473747261702d657874656e6465642e637373|]
+Jul  3 18:31:54 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/app.min.css" flags READ mode 0666
+Jul  3 18:31:54 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/app.min.css" bytes read 0 written 0
+Jul  3 18:31:54 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f6170702e6d696e2e637373|]
+Jul  3 18:31:57 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/app.css" flags READ mode 0666
+Jul  3 18:31:57 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/app.css" bytes read 97 written 0
+Jul  3 18:31:57 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|97|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f6170702e637373|]
+Jul  3 18:34:05 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-variables.min.css" flags READ mode 0666
+Jul  3 18:34:05 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-variables.min.css" bytes read 0 written 0
+Jul  3 18:34:05 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d7661726961626c65732e6d696e2e637373|]
+Jul  3 18:34:08 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-variables.css" flags READ mode 0666
+Jul  3 18:34:08 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-variables.css" bytes read 0 written 0
+Jul  3 18:34:08 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d7661726961626c65732e637373|]
+Jul  3 18:34:10 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-tooltip.min.css" flags READ mode 0666
+Jul  3 18:34:10 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-tooltip.min.css" bytes read 3294 written 0
+Jul  3 18:34:10 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|3294|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d746f6f6c7469702e6d696e2e637373|]
+Jul  3 18:34:14 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-tooltip.css" flags READ mode 0666
+Jul  3 18:34:14 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-tooltip.css" bytes read 3887 written 0
+Jul  3 18:34:14 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|3887|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d746f6f6c7469702e637373|]
+Jul  3 18:34:17 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-switch.min.css" flags READ mode 0666
+Jul  3 18:34:17 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-switch.min.css" bytes read 8675 written 0
+Jul  3 18:34:17 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|8675|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d7377697463682e6d696e2e637373|]
+Jul  3 18:34:19 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-switch.css" flags READ mode 0666
+Jul  3 18:34:19 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-switch.css" bytes read 9784 written 0
+Jul  3 18:34:19 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|9784|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d7377697463682e637373|]
+Jul  3 18:34:22 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-gradient.min.css" flags READ mode 0666
+Jul  3 18:34:23 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-gradient.min.css" bytes read 74167 written 0
+Jul  3 18:34:23 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|74167|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d6772616469656e742e6d696e2e637373|]
+Jul  3 18:34:33 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-gradient.css" flags READ mode 0666
+Jul  3 18:34:34 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/colors/palette-gradient.css" bytes read 90652 written 0
+Jul  3 18:34:34 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|90652|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f636f6c6f72732f70616c657474652d6772616469656e742e637373|]
+Jul  3 18:36:38 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/vertical-overlay-menu.min.css" flags READ mode 0666
+Jul  3 18:36:38 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/vertical-overlay-menu.min.css" bytes read 4309 written 0
+Jul  3 18:36:38 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|4309|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d656e752f6d656e752d74797065732f766572746963616c2d6f7665726c61792d6d656e752e6d696e2e637373|]
+Jul  3 18:36:40 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/vertical-overlay-menu.css" flags READ mode 0666
+Jul  3 18:36:40 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/vertical-overlay-menu.css" bytes read 6078 written 0
+Jul  3 18:36:40 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|6078|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d656e752f6d656e752d74797065732f766572746963616c2d6f7665726c61792d6d656e752e637373|]
+Jul  3 18:36:42 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/horizontal-menu.min.css" flags READ mode 0666
+Jul  3 18:36:43 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/horizontal-menu.min.css" bytes read 7843 written 0
+Jul  3 18:36:43 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|7843|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d656e752f6d656e752d74797065732f686f72697a6f6e74616c2d6d656e752e6d696e2e637373|]
+Jul  3 18:36:45 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/horizontal-menu.css" flags READ mode 0666
+Jul  3 18:36:45 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/menu/menu-types/horizontal-menu.css" bytes read 11107 written 0
+Jul  3 18:36:45 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|11107|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d656e752f6d656e752d74797065732f686f72697a6f6e74616c2d6d656e752e637373|]
+Jul  3 18:37:37 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/transitions.min.css" flags READ mode 0666
+Jul  3 18:37:37 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/transitions.min.css" bytes read 0 written 0
+Jul  3 18:37:37 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f7472616e736974696f6e732e6d696e2e637373|]
+Jul  3 18:37:39 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/transitions.css" flags READ mode 0666
+Jul  3 18:37:39 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/transitions.css" bytes read 0 written 0
+Jul  3 18:37:39 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f7472616e736974696f6e732e637373|]
+Jul  3 18:37:42 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/main-menu-mixin.min.css" flags READ mode 0666
+Jul  3 18:37:42 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/main-menu-mixin.min.css" bytes read 0 written 0
+Jul  3 18:37:42 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f6d61696e2d6d656e752d6d6978696e2e6d696e2e637373|]
+Jul  3 18:37:44 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/main-menu-mixin.css" flags READ mode 0666
+Jul  3 18:37:44 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/main-menu-mixin.css" bytes read 0 written 0
+Jul  3 18:37:44 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f6d61696e2d6d656e752d6d6978696e2e637373|]
+Jul  3 18:37:46 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/hex2rgb.min.css" flags READ mode 0666
+Jul  3 18:37:47 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/hex2rgb.min.css" bytes read 0 written 0
+Jul  3 18:37:47 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f686578327267622e6d696e2e637373|]
+Jul  3 18:37:48 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/hex2rgb.css" flags READ mode 0666
+Jul  3 18:37:49 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/hex2rgb.css" bytes read 0 written 0
+Jul  3 18:37:49 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f686578327267622e637373|]
+Jul  3 18:37:51 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/callout.min.css" flags READ mode 0666
+Jul  3 18:37:52 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/callout.min.css" bytes read 0 written 0
+Jul  3 18:37:52 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f63616c6c6f75742e6d696e2e637373|]
+Jul  3 18:37:56 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/callout.css" flags READ mode 0666
+Jul  3 18:37:56 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/core/mixins/callout.css" bytes read 0 written 0
+Jul  3 18:37:56 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f636f72652f6d6978696e732f63616c6c6f75742e637373|]
+Jul  3 18:40:24 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/users.min.css" flags READ mode 0666
+Jul  3 18:40:24 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/users.min.css" bytes read 47 written 0
+Jul  3 18:40:24 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|47|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f75736572732e6d696e2e637373|]
+Jul  3 18:40:28 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/users.css" flags READ mode 0666
+Jul  3 18:40:28 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/users.css" bytes read 58 written 0
+Jul  3 18:40:28 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|58|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f75736572732e637373|]
+Jul  3 18:40:30 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/under-maintenance.min.css" flags READ mode 0666
+Jul  3 18:40:30 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/under-maintenance.min.css" bytes read 173 written 0
+Jul  3 18:40:30 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|173|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f756e6465722d6d61696e74656e616e63652e6d696e2e637373|]
+Jul  3 18:40:32 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/under-maintenance.css" flags READ mode 0666
+Jul  3 18:40:32 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/under-maintenance.css" bytes read 209 written 0
+Jul  3 18:40:32 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|209|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f756e6465722d6d61696e74656e616e63652e637373|]
+Jul  3 18:40:34 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/timeline.min.css" flags READ mode 0666
+Jul  3 18:40:34 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/timeline.min.css" bytes read 25028 written 0
+Jul  3 18:40:34 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|25028|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f74696d656c696e652e6d696e2e637373|]
+Jul  3 18:41:20 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/timeline.css" flags READ mode 0666
+Jul  3 18:41:21 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/timeline.css" bytes read 37149 written 0
+Jul  3 18:41:21 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|37149|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f74696d656c696e652e637373|]
+Jul  3 18:41:23 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/search.min.css" flags READ mode 0666
+Jul  3 18:41:23 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/search.min.css" bytes read 194 written 0
+Jul  3 18:41:23 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|194|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f7365617263682e6d696e2e637373|]
+Jul  3 18:41:25 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/search.css" flags READ mode 0666
+Jul  3 18:41:26 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/search.css" bytes read 240 written 0
+Jul  3 18:41:26 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|240|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f7365617263682e637373|]
+Jul  3 18:41:27 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/register.min.css" flags READ mode 0666
+Jul  3 18:41:27 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/register.min.css" bytes read 0 written 0
+Jul  3 18:41:27 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f72656769737465722e6d696e2e637373|]
+Jul  3 18:41:36 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/register.css" flags READ mode 0666
+Jul  3 18:41:36 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/register.css" bytes read 0 written 0
+Jul  3 18:41:36 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|0|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f72656769737465722e637373|]
+Jul  3 18:41:39 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/project.min.css" flags READ mode 0666
+Jul  3 18:41:39 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/project.min.css" bytes read 695 written 0
+Jul  3 18:41:39 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|695|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f70726f6a6563742e6d696e2e637373|]
+Jul  3 18:41:42 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/project.css" flags READ mode 0666
+Jul  3 18:41:42 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/project.css" bytes read 899 written 0
+Jul  3 18:41:42 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|899|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f70726f6a6563742e637373|]
+Jul  3 18:41:44 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/login-register.min.css" flags READ mode 0666
+Jul  3 18:41:45 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/login-register.min.css" bytes read 426 written 0
+Jul  3 18:41:45 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|426|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f6c6f67696e2d72656769737465722e6d696e2e637373|]
+Jul  3 18:41:46 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/login-register.css" flags READ mode 0666
+Jul  3 18:41:47 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/login-register.css" bytes read 651 written 0
+Jul  3 18:41:47 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|651|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f6c6f67696e2d72656769737465722e637373|]
+Jul  3 18:41:48 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/invoice.min.css" flags READ mode 0666
+Jul  3 18:41:49 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/invoice.min.css" bytes read 74 written 0
+Jul  3 18:41:49 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|74|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f696e766f6963652e6d696e2e637373|]
+Jul  3 18:41:51 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/invoice.css" flags READ mode 0666
+Jul  3 18:41:51 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/invoice.css" bytes read 95 written 0
+Jul  3 18:41:51 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|95|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f696e766f6963652e637373|]
+Jul  3 18:41:59 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/gallery.min.css" flags READ mode 0666
+Jul  3 18:42:00 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/gallery.min.css" bytes read 759 written 0
+Jul  3 18:42:00 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|759|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f67616c6c6572792e6d696e2e637373|]
+Jul  3 18:42:02 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/gallery.css" flags READ mode 0666
+Jul  3 18:42:03 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/gallery.css" bytes read 1191 written 0
+Jul  3 18:42:03 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|1191|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f67616c6c6572792e637373|]
+Jul  3 18:42:05 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/error.min.css" flags READ mode 0666
+Jul  3 18:42:05 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/error.min.css" bytes read 28 written 0
+Jul  3 18:42:05 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|28|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f6572726f722e6d696e2e637373|]
+Jul  3 18:42:06 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/error.css" flags READ mode 0666
+Jul  3 18:42:07 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/error.css" bytes read 38 written 0
+Jul  3 18:42:07 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|38|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f6572726f722e637373|]
+Jul  3 18:42:09 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/email-application.min.css" flags READ mode 0666
+Jul  3 18:42:09 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/email-application.min.css" bytes read 2279 written 0
+Jul  3 18:42:09 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|2279|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f656d61696c2d6170706c69636174696f6e2e6d696e2e637373|]
+Jul  3 18:42:11 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/email-application.css" flags READ mode 0666
+Jul  3 18:42:12 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/email-application.css" bytes read 2940 written 0
+Jul  3 18:42:12 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|2940|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f656d61696c2d6170706c69636174696f6e2e637373|]
+Jul  3 18:42:13 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-ecommerce.min.css" flags READ mode 0666
+Jul  3 18:42:13 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-ecommerce.min.css" bytes read 3830 written 0
+Jul  3 18:42:13 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|3830|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f64617368626f6172642d65636f6d6d657263652e6d696e2e637373|]
+Jul  3 18:42:31 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-ecommerce.css" flags READ mode 0666
+Jul  3 18:42:32 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-ecommerce.css" bytes read 5103 written 0
+Jul  3 18:42:32 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|5103|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f64617368626f6172642d65636f6d6d657263652e637373|]
+Jul  3 18:42:51 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-analytics.min.css" flags READ mode 0666
+Jul  3 18:42:52 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-analytics.min.css" bytes read 2334 written 0
+Jul  3 18:42:52 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|2334|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f64617368626f6172642d616e616c79746963732e6d696e2e637373|]
+Jul  3 18:43:11 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-analytics.css" flags READ mode 0666
+Jul  3 18:43:11 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/dashboard-analytics.css" bytes read 3313 written 0
+Jul  3 18:43:11 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|3313|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f64617368626f6172642d616e616c79746963732e637373|]
+Jul  3 18:43:16 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/coming-soon.min.css" flags READ mode 0666
+Jul  3 18:43:17 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/coming-soon.min.css" bytes read 398 written 0
+Jul  3 18:43:17 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|398|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f636f6d696e672d736f6f6e2e6d696e2e637373|]
+Jul  3 18:43:18 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/coming-soon.css" flags READ mode 0666
+Jul  3 18:43:18 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/coming-soon.css" bytes read 631 written 0
+Jul  3 18:43:18 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|631|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f636f6d696e672d736f6f6e2e637373|]
+Jul  3 18:44:41 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/chat-application.min.css" flags READ mode 0666
+Jul  3 18:44:41 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/chat-application.min.css" bytes read 13061 written 0
+Jul  3 18:44:41 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|13061|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f636861742d6170706c69636174696f6e2e6d696e2e637373|]
+Jul  3 18:44:49 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/chat-application.css" flags READ mode 0666
+Jul  3 18:44:49 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/chat-application.css" bytes read 13863 written 0
+Jul  3 18:44:49 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|13863|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f636861742d6170706c69636174696f6e2e637373|]
+Jul  3 18:44:51 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/advanced-cards.min.css" flags READ mode 0666
+Jul  3 18:44:51 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/advanced-cards.min.css" bytes read 3076 written 0
+Jul  3 18:44:51 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|0|3076|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f616476616e6365642d63617264732e6d696e2e637373|]
+Jul  3 18:44:52 10.71.61.0 tmp85579022-4380 open "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/advanced-cards.css" flags READ mode 0666
+Jul  3 18:44:53 10.71.61.0 tmp85579022-4380 close "/clickandbuilds/GrupoOnix/admin/app-assets/css/pages/advanced-cards.css" bytes read 4441 written 0
+Jul  3 18:44:53 10.71.61.0 tmp85579022-4380 [10.71.61.0|get|1|4441|0|0|0|2f636c69636b616e646275696c64732f477275706f4f6e69782f61646d696e2f6170702d6173736574732f6373732f70616765732f616476616e6365642d63617264732e637373|]
+Jul  3 18:49:53 10.71.61.0 tmp85579022-4380 session closed for local user tmp85579022-4380 from [10.71.61.0]
+Jul  3 18:49:53 10.71.61.0 tmp85579022-4380 Connection closed by 10.71.61.0 port 52530
+Jul  4 10:20:51 10.71.61.0 tmp85579022-3346 Connection from 10.71.61.0 port 20132 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:20:51 10.71.61.0 tmp85579022-3346 Accepted password for tmp85579022-3346 from 10.71.61.0 port 20132 ssh2
+Jul  4 10:20:52 10.71.61.0 tmp85579022-3346 Starting session: subsystem 'sftp' for tmp85579022-3346 from 10.71.61.0 port 20132 id 0
+Jul  4 10:20:52 10.71.61.0 tmp85579022-3346 session opened for local user tmp85579022-3346 from [10.71.61.0]
+Jul  4 10:28:34 10.71.61.0 tmp85579022-3346 session closed for local user tmp85579022-3346 from [10.71.61.0]
+Jul  4 10:28:34 10.71.61.0 tmp85579022-3346 Connection closed by 10.71.61.0 port 20132
+Jul  4 10:32:42 10.71.60.0 u85579022 Connection from 10.71.60.0 port 16808 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:32:45 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 16808 ssh2
+Jul  4 10:33:55 10.71.60.0 u85579022 Connection from 10.71.60.0 port 41430 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:33:57 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 41430 ssh2
+Jul  4 10:41:27 10.71.60.0 u85579022 Connection from 10.71.60.0 port 38132 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:41:30 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 38132 ssh2
+Jul  4 10:42:42 10.71.60.0 u85579022-balo Connection from 10.71.60.0 port 43586 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:42:44 10.71.60.0 u85579022-balo Failed password for u85579022-balo from 10.71.60.0 port 43586 ssh2
+Jul  4 10:48:34 10.71.60.0 u85579022 Connection from 10.71.60.0 port 25340 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:48:36 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 25340 ssh2
+Jul  4 10:49:39 10.71.60.0 u85579022 Connection from 10.71.60.0 port 59780 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:49:42 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 59780 ssh2
+Jul  4 10:51:23 10.71.60.0 u85579022 Connection from 10.71.60.0 port 25842 on 74.208.59.129 port 22 rdomain ""
+Jul  4 10:51:25 10.71.60.0 u85579022 Failed password for u85579022 from 10.71.60.0 port 25842 ssh2
+Jul  4 12:12:58 10.71.61.0 u85579022 Connection from 10.71.61.0 port 26092 on 74.208.59.129 port 22 rdomain ""
+Jul  4 12:13:00 10.71.61.0 u85579022 Failed password for u85579022 from 10.71.61.0 port 26092 ssh2
+Jul  4 12:20:26 10.71.61.0 u85579022 Connection from 10.71.61.0 port 53560 on 74.208.59.129 port 22 rdomain ""
+Jul  4 12:20:27 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 53560 ssh2
+Jul  4 12:20:28 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 53560 id 0
+Jul  4 12:20:28 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  4 12:21:38 10.71.61.0 u85579022 Connection from 10.71.61.0 port 21378 on 74.208.59.129 port 22 rdomain ""
+Jul  4 12:21:40 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 21378 ssh2
+Jul  4 12:21:38 10.71.61.0 u85579022 Connection from 10.71.61.0 port 21394 on 74.208.59.129 port 22 rdomain ""
+Jul  4 12:21:40 10.71.61.0 u85579022 Accepted password for u85579022 from 10.71.61.0 port 21394 ssh2
+Jul  4 12:21:40 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 21378 id 0
+Jul  4 12:21:40 10.71.61.0 u85579022 Starting session: subsystem 'sftp' for u85579022 from 10.71.61.0 port 21394 id 0
+Jul  4 12:21:40 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  4 12:21:40 10.71.61.0 u85579022 session opened for local user u85579022 from [10.71.61.0]
+Jul  4 12:21:42 10.71.61.0 u85579022 open "/Logo SiO.PNG" flags READ mode 0666
+Jul  4 12:21:42 10.71.61.0 u85579022 open "/KnowHosts.txt" flags READ mode 0666
+Jul  4 12:21:43 10.71.61.0 u85579022 close "/KnowHosts.txt" bytes read 411 written 0
+Jul  4 12:21:43 10.71.61.0 u85579022 [10.71.61.0|get|1|411|0|0|0|2f4b6e6f77486f7374732e747874|]
+Jul  4 12:21:45 10.71.61.0 u85579022 open "/SIO.png" flags READ mode 0666
+Jul  4 12:21:50 10.71.61.0 u85579022 close "/SIO.png" bytes read 119795 written 0
+Jul  4 12:21:50 10.71.61.0 u85579022 [10.71.61.0|get|5|119795|0|0|0|2f53494f2e706e67|]
+Jul  4 12:21:51 10.71.61.0 u85579022 open "/index.php" flags READ mode 0666
+Jul  4 12:21:51 10.71.61.0 u85579022 sent status No such file
+Jul  4 12:21:52 10.71.61.0 u85579022 close "/index.php" bytes read 6780 written 0
+Jul  4 12:21:52 10.71.61.0 u85579022 [10.71.61.0|get|1|6780|0|0|0|2f696e6465782e706870|]
+Jul  4 12:21:53 10.71.61.0 u85579022 open "/demo-video-background.html" flags READ mode 0666
+Jul  4 12:21:54 10.71.61.0 u85579022 close "/Logo SiO.PNG" bytes read 301158 written 0
+Jul  4 12:21:54 10.71.61.0 u85579022 [10.71.61.0|get|12|301158|0|0|0|2f4c6f676f2053694f2e504e47|]
+Jul  4 12:21:55 10.71.61.0 u85579022 close "/demo-video-background.html" bytes read 5711 written 0
+Jul  4 12:21:55 10.71.61.0 u85579022 [10.71.61.0|get|2|5711|0|0|0|2f64656d6f2d766964656f2d6261636b67726f756e642e68746d6c|]
+Jul  4 12:21:55 10.71.61.0 u85579022 open "/demo-restaurant.html" flags READ mode 0666
+Jul  4 12:21:58 10.71.61.0 u85579022 open "/demo-image-background.html" flags READ mode 0666
+Jul  4 12:21:58 10.71.61.0 u85579022 close "/demo-restaurant.html" bytes read 5446 written 0
+Jul  4 12:21:58 10.71.61.0 u85579022 [10.71.61.0|get|3|5446|0|0|0|2f64656d6f2d72657374617572616e742e68746d6c|]
+Jul  4 12:21:58 10.71.61.0 u85579022 open "/GRUPO ONIX.svg" flags READ mode 0666
+Jul  4 12:21:58 10.71.61.0 u85579022 close "/demo-image-background.html" bytes read 5438 written 0
+Jul  4 12:21:58 10.71.61.0 u85579022 [10.71.61.0|get|0|5438|0|0|0|2f64656d6f2d696d6167652d6261636b67726f756e642e68746d6c|]
+Jul  4 12:21:59 10.71.61.0 u85579022 open "/components.html" flags READ mode 0666
+Jul  4 12:21:59 10.71.61.0 u85579022 close "/GRUPO ONIX.svg" bytes read 5823 written 0
+Jul  4 12:21:59 10.71.61.0 u85579022 [10.71.61.0|get|1|5823|0|0|0|2f475255504f204f4e49582e737667|]
+Jul  4 12:22:01 10.71.61.0 u85579022 open "/GRUPO ONIX.png" flags READ mode 0666
+Jul  4 12:22:01 10.71.61.0 u85579022 close "/components.html" bytes read 13064 written 0
+Jul  4 12:22:01 10.71.61.0 u85579022 [10.71.61.0|get|2|13064|0|0|0|2f636f6d706f6e656e74732e68746d6c|]
+Jul  4 12:22:01 10.71.61.0 u85579022 open "/demo-cream-app.html" flags READ mode 0666
+Jul  4 12:22:03 10.71.61.0 u85579022 close "/demo-cream-app.html" bytes read 5431 written 0
+Jul  4 12:22:03 10.71.61.0 u85579022 [10.71.61.0|get|2|5431|0|0|0|2f64656d6f2d637265616d2d6170702e68746d6c|]
+Jul  4 12:22:04 10.71.61.0 u85579022 open "/logs/access.log.25.gz" flags READ mode 0666
+Jul  4 12:22:08 10.71.61.0 u85579022 close "/GRUPO ONIX.png" bytes read 171599 written 0
+Jul  4 12:22:08 10.71.61.0 u85579022 [10.71.61.0|get|7|171599|0|0|0|2f475255504f204f4e49582e706e67|]
+Jul  4 12:22:11 10.71.61.0 u85579022 open "/logs/access.log.26.6.gz" flags READ mode 0666
+Jul  4 12:22:12 10.71.61.0 u85579022 close "/logs/access.log.26.6.gz" bytes read 28256 written 0
+Jul  4 12:22:12 10.71.61.0 u85579022 [10.71.61.0|get|1|28256|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e362e677a|]
+Jul  4 12:22:13 10.71.61.0 u85579022 open "/logs/access.log.26.5.gz" flags READ mode 0666
+Jul  4 12:22:15 10.71.61.0 u85579022 close "/logs/access.log.26.5.gz" bytes read 53684 written 0
+Jul  4 12:22:15 10.71.61.0 u85579022 [10.71.61.0|get|2|53684|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e352e677a|]
+Jul  4 12:22:15 10.71.61.0 u85579022 open "/logs/info.pl" flags READ mode 0666
+Jul  4 12:22:16 10.71.61.0 u85579022 close "/logs/info.pl" bytes read 4200 written 0
+Jul  4 12:22:16 10.71.61.0 u85579022 [10.71.61.0|get|1|4200|0|0|0|2f6c6f67732f696e666f2e706c|]
+Jul  4 12:22:16 10.71.61.0 u85579022 open "/logs/access.log.27.3.gz" flags READ mode 0666
+Jul  4 12:22:18 10.71.61.0 u85579022 close "/logs/access.log.25.gz" bytes read 500096 written 0
+Jul  4 12:22:18 10.71.61.0 u85579022 [10.71.61.0|get|14|500096|0|0|0|2f6c6f67732f6163636573732e6c6f672e32352e677a|]
+Jul  4 12:22:18 10.71.61.0 u85579022 close "/logs/access.log.27.3.gz" bytes read 66953 written 0
+Jul  4 12:22:18 10.71.61.0 u85579022 [10.71.61.0|get|2|66953|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e332e677a|]
+Jul  4 12:22:19 10.71.61.0 u85579022 open "/logs/info.py" flags READ mode 0666
+Jul  4 12:22:19 10.71.61.0 u85579022 open "/logs/access.log.27.2.gz" flags READ mode 0666
+Jul  4 12:22:19 10.71.61.0 u85579022 close "/logs/info.py" bytes read 6319 written 0
+Jul  4 12:22:19 10.71.61.0 u85579022 [10.71.61.0|get|0|6319|0|0|0|2f6c6f67732f696e666f2e7079|]
+Jul  4 12:22:20 10.71.61.0 u85579022 close "/logs/access.log.27.2.gz" bytes read 69048 written 0
+Jul  4 12:22:20 10.71.61.0 u85579022 [10.71.61.0|get|1|69048|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e322e677a|]
+Jul  4 12:22:20 10.71.61.0 u85579022 open "/logs/access.log.26.3.gz" flags READ mode 0666
+Jul  4 12:22:21 10.71.61.0 u85579022 open "/logs/access.log.26.2.gz" flags READ mode 0666
+Jul  4 12:22:23 10.71.61.0 u85579022 close "/logs/access.log.26.2.gz" bytes read 132099 written 0
+Jul  4 12:22:23 10.71.61.0 u85579022 [10.71.61.0|get|2|132099|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e322e677a|]
+Jul  4 12:22:24 10.71.61.0 u85579022 open "/logs/access.log.26.1.gz" flags READ mode 0666
+Jul  4 12:22:24 10.71.61.0 u85579022 close "/logs/access.log.26.3.gz" bytes read 114640 written 0
+Jul  4 12:22:24 10.71.61.0 u85579022 [10.71.61.0|get|4|114640|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e332e677a|]
+Jul  4 12:22:25 10.71.61.0 u85579022 open "/logs/access.log.20.gz" flags READ mode 0666
+Jul  4 12:22:25 10.71.61.0 u85579022 close "/logs/access.log.26.1.gz" bytes read 87892 written 0
+Jul  4 12:22:25 10.71.61.0 u85579022 [10.71.61.0|get|1|87892|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e312e677a|]
+Jul  4 12:22:26 10.71.61.0 u85579022 open "/logs/info.php5" flags READ mode 0666
+Jul  4 12:22:26 10.71.61.0 u85579022 close "/logs/info.php5" bytes read 21 written 0
+Jul  4 12:22:26 10.71.61.0 u85579022 [10.71.61.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Jul  4 12:22:27 10.71.61.0 u85579022 open "/logs/access.log.23.gz" flags READ mode 0666
+Jul  4 12:22:34 10.71.61.0 u85579022 close "/logs/access.log.23.gz" bytes read 554618 written 0
+Jul  4 12:22:34 10.71.61.0 u85579022 [10.71.61.0|get|7|554618|0|0|0|2f6c6f67732f6163636573732e6c6f672e32332e677a|]
+Jul  4 12:22:35 10.71.61.0 u85579022 open "/logs/access.log.21.gz" flags READ mode 0666
+Jul  4 12:22:36 10.71.61.0 u85579022 close "/logs/access.log.20.gz" bytes read 490414 written 0
+Jul  4 12:22:36 10.71.61.0 u85579022 [10.71.61.0|get|11|490414|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e677a|]
+Jul  4 12:22:37 10.71.61.0 u85579022 open "/logs/access.log.26.7.gz" flags READ mode 0666
+Jul  4 12:22:39 10.71.61.0 u85579022 close "/logs/access.log.26.7.gz" bytes read 123642 written 0
+Jul  4 12:22:39 10.71.61.0 u85579022 [10.71.61.0|get|2|123642|0|0|0|2f6c6f67732f6163636573732e6c6f672e32362e372e677a|]
+Jul  4 12:22:41 10.71.61.0 u85579022 open "/logs/access.log.27.4.gz" flags READ mode 0666
+Jul  4 12:22:42 10.71.61.0 u85579022 close "/logs/access.log.21.gz" bytes read 476731 written 0
+Jul  4 12:22:42 10.71.61.0 u85579022 [10.71.61.0|get|7|476731|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e677a|]
+Jul  4 12:22:44 10.71.61.0 u85579022 close "/logs/access.log.27.4.gz" bytes read 58894 written 0
+Jul  4 12:22:44 10.71.61.0 u85579022 [10.71.61.0|get|3|58894|0|0|0|2f6c6f67732f6163636573732e6c6f672e32372e342e677a|]
+Jul  4 12:22:44 10.71.61.0 u85579022 open "/logs/access.log.27.5" flags READ mode 0666
+Jul  4 12:22:44 10.71.61.0 u85579022 open "/logs/sftp.log" flags READ mode 0666

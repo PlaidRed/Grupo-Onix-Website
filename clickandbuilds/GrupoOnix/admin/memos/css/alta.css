@@ -1,0 +1,93 @@
+.btn-act {
+    padding: 10px;
+}
+
+.cont-categorias .row {
+    margin-bottom: 5px;
+}
+
+.tagging {
+    padding: .75rem 1.5rem;
+}
+
+.img-galeria {
+    margin-bottom: 20px;
+}
+
+.col-sm-2 {
+    padding-bottom: 30px;
+}
+
+.disabled-input {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+#color-preview {
+    margin-top: 10px;
+}
+
+#repeat-calendar-widget {
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   padding: 10px;
+   background: white;
+}
+
+#repeat-calendar-widget .ui-datepicker {
+   position: static !important;
+   display: block !important;
+   border: none;
+   box-shadow: none;
+}
+
+#selected-dates-list {
+   border-radius: 4px;
+}
+
+.selected-date-tag {
+   display: inline-block;
+   background: #007bff;
+   color: white;
+   padding: 4px 8px;
+   margin: 2px;
+   border-radius: 12px;
+   font-size: 12px;
+}
+
+.selected-date-tag .remove-date {
+   margin-left: 5px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.selected-date-tag .remove-date:hover {
+   color: #ffcccc;
+}
+
+#preview-dates-list {
+   border-radius: 4px;
+   font-size: 12px;
+}
+
+.preview-date-item {
+   padding: 2px 0;
+   border-bottom: 1px solid #eee;
+}
+
+.preview-date-item:last-child {
+   border-bottom: none;
+}
+
+.form-group label {
+   font-weight: 600;
+   color: #333;
+}
+
+#repeat-calendar-container .row {
+   margin: 0;
+}
+
+#repeat-calendar-container .col-sm-6 {
+   padding: 10px;
+}

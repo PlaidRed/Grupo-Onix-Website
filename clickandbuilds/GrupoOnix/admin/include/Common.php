@@ -263,13 +263,14 @@ class Common extends Core {
 	}
 
 	public function printFooter() {
-		echo '<footer class="footer footer-static footer-light navbar-shadow">
-		      <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
-		        <ul class="list-inline float-md-right d-block d-md-inline-blockd-none d-lg-block mb-0">
-		          <li class="list-inline-item"><a class="my-1" href="mailto:web@tna.mx"> Soporte</a></li>
-		        </ul>
-		      </div>
-		    </footer>';
+    echo '<footer class="footer footer-static footer-light navbar-shadow">
+          <div class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+            <ul class="list-inline float-md-right d-block d-md-inline-blockd-none d-lg-block mb-0">
+              <li class="list-inline-item"><a class="my-1" href="mailto:web@tna.mx"> Soporte</a></li>
+            </ul>
+          </div>
+        </footer>';
+
 	}
 
 	public function printLeftHeader() {

@@ -82,6 +82,8 @@ $js = array('alta');
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/plugins/ui/jquery-ui.css">
 
     <!-- CSS -->
+   <link rel="stylesheet" type="text/css" href="css/alta.css">
+
     <?php 
       if (count($css) > 0) {
         foreach ($css as $clave => $valor) {
@@ -89,24 +91,6 @@ $js = array('alta');
         }
       }
     ?>
-
-    <style type="text/css">
-      .btn-act {
-         padding: 10px;
-      }
-
-      .cont-categorias .row {
-         margin-bottom: 5px;
-      }
-
-      .tagging {
-         padding: .75rem 1.5rem;
-      }
-
-      .img-galeria {
-         margin-bottom: 20px;
-      }
-    </style>
 
   </head>
   <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-gradient-x-orange-yellow" data-col="2-columns">
@@ -146,15 +130,145 @@ $js = array('alta');
                            <div class="card-body">
                               <div class="form-body">
                                  <div class="form-group row">
-                                    <label class="col-sm-2 label-control" for="titulo">Compañia*</label>
+                                    <!-- CAMPO DE TITULO -->
+                                    <label class="col-sm-2 label-control" for="titulo">Título*</label>
                                     <div class="col-sm-4">
                                        <input type="text" id="titulo" class="form-control border-primary" name="titulo">
                                     </div>
-                                    <label class="col-sm-2 label-control" for="fecha">Fecha*</label>
+
+                                    <!-- CAMPO DE FECHA inicial CON HORA -->
+                                    <label class="col-sm-2 label-control" for="fecha">Fecha Inicial*</label>
                                     <div class="col-sm-4">
-                                       <input type="text" id="fecha" class="form-control border-primary" name="fecha">
+                                       <input type="text" id="fecha" class="form-control border-primary" name="fecha" placeholder="dd/mm/yyyy">
                                     </div>
+
+                                    <!-- CAMPO DE HORA INICIAL -->
+                                    <label class="col-sm-2 label-control" for="hora_inicial">Hora Inicial</label>
+                                    <div class="col-sm-4">
+                                       <input type="time" id="hora_inicial" class="form-control border-primary" name="hora_inicial" placeholder="Deje vacío para evento de todo el día">
+                                    </div>
+
+                                    <!-- CAMPO FECHA DE EXPIRACIÓN CON HORA -->
+                                    <label class="col-sm-2 label-control" for="fecha_exp">Fecha de Expiración</label>
+                                    <div class="col-sm-4">
+                                       <input type="text" id="fecha_exp" class="form-control border-primary" name="fecha_exp" placeholder="dd/mm/yyyy">
+                                    </div>
+
+                                    <!-- CAMPO DE HORA DE EXPIRACIÓN -->
+                                    <label class="col-sm-2 label-control" for="hora_exp">Hora de Expiración</label>
+                                    <div class="col-sm-4">
+                                       <input type="time" id="hora_exp" class="form-control border-primary" name="hora_exp" placeholder="Deje vacío para final del día">
+                                    </div>
+
+                                    <!-- CAMPO DE CATEGORIA (colores)-->
+                                    <label class="col-sm-2 label-control" for="color">Categoria</label>
+                                    <div class="col-sm-4">
+                                       <select id="color" name="color" class="form-control">
+                                          <option value="Asuetos">Asuetos</option>
+                                          <option value="Avisos temporales">Avisos temporales</option>
+                                          <option value="Circular">Circular</option>
+                                          <option value="Importantes">Importantes</option>
+                                          <option value="Otros" selected>Otros</option>
+                                          <option value="Vacaciones">Vacaciones</option>
+
+                                       </select>
+                                       <div id="color-preview" style="width: 25px; height: 25px; display:inline-block; margin-left:10px; border:1px solid #ccc;"></div>
+                                    </div>
+                                 
+                                    <!-- CAMPO REPETITIVO -->
+                                    <label class="col-sm-2 label-control" for="repetitivo">Repetitivo</label>
+                                    <div class="col-sm-4">
+                                       <input type="checkbox" id="repetitivo" name="repetitivo" value="1">
+                                    </div>
+
+                                    <div class="col-sm-12" id="repeat-calendar-container" style="display:none; margin-top:15px;">
+                                       <div class="row">
+                                          <!-- Calendar Column -->
+                                          <div class="col-sm-6">
+                                             <label>Selecciona fechas base:</label>
+                                             <div id="repeat-calendar-widget" style="margin-top:10px;"></div>
+                                          </div>
+                                          
+                                          <!-- Configuration Column -->
+                                          <div class="col-sm-6">
+                                             <div id="selected-dates-config" style="display:none;">
+                                                <h5>Configuración de Repetición</h5>
+                                                
+                                                <!-- Selected Dates Display -->
+                                                <div class="form-group">
+                                                   <label>Fechas seleccionadas:</label>
+                                                   <div id="selected-dates-list" class="border p-2" style="min-height:60px; background:#f8f9fa;">
+                                                      <em class="text-muted">No hay fechas seleccionadas</em>
+                                                   </div>
+                                                </div>
+
+                                                <!-- Repeat Pattern -->
+                                                <div class="form-group">
+                                                   <label for="repeat-pattern">Patrón de repetición:</label>
+                                                   <select id="repeat-pattern" class="form-control" name="repeat_pattern">
+                                                      <option value="none">No repetir (solo fechas seleccionadas)</option>
+                                                      <option value="daily">Repetir cada día</option>
+                                                      <option value="weekly">Repetir cada semana</option>
+                                                      <option value="monthly">Repetir cada mes</option>
+                                                      <option value="yearly">Repetir cada año</option>
+                                                   </select>
+                                                </div>
+
+                                                <!-- Repeat Frequency -->
+                                                <div class="form-group" id="repeat-frequency-group" style="display:none;">
+                                                   <label for="repeat-frequency">Repetir cada:</label>
+                                                   <div class="input-group">
+                                                      <input type="number" id="repeat-frequency" class="form-control" name="repeat_frequency" min="1" max="365" value="1">
+                                                      <div class="input-group-append">
+                                                         <span class="input-group-text" id="frequency-unit">días</span>
+                                                      </div>
+                                                   </div>
+                                                </div>
+
+                                                <!-- Repeat Count -->
+                                                <div class="form-group" id="repeat-count-group" style="display:none;">
+                                                   <label for="repeat-count">Número de repeticiones:</label>
+                                                   <div class="input-group">
+                                                      <input type="number" id="repeat-count" class="form-control" name="repeat_count" min="1" max="1000" value="1">
+                                                      <div class="input-group-append">
+                                                         <span class="input-group-text">veces</span>
+                                                      </div>
+                                                   </div>
+                                                   <small class="form-text text-muted">Máximo 1000 repeticiones</small>
+                                                </div>
+
+                                                <!-- End Date Option -->
+                                                <div class="form-group" id="repeat-until-group" style="display:none;">
+                                                   <label for="repeat-until">O repetir hasta:</label>
+                                                   <input type="text" id="repeat-until" class="form-control" name="repeat_until" placeholder="dd/mm/yyyy">
+                                                   <small class="form-text text-muted">Deje vacío para usar número de repeticiones</small>
+                                                </div>
+
+                                                <!-- Preview -->
+                                                <div class="form-group">
+                                                   <button type="button" id="preview-dates" class="btn btn-info btn-sm">Vista Previa</button>
+                                                   <button type="button" id="clear-repeat-config" class="btn btn-danger btn-sm">Limpiar Todo</button>
+                                                </div>
+
+                                                <!-- Preview Results -->
+                                                <div id="preview-results" style="display:none; margin-top:15px;">
+                                                   <h6>Vista previa de fechas generadas:</h6>
+                                                   <div id="preview-dates-list" class="border p-2" style="max-height:200px; overflow-y:auto; background:#fff;">
+                                                   </div>
+                                                   <small class="text-muted">Se mostrarán máximo las primeras 50 fechas</small>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       
+                                       <!-- Hidden field to store final dates -->
+                                       <input type="hidden" id="repeat_dates" name="repeat_dates">
+                                       <input type="hidden" id="repeat_config" name="repeat_config">
+                                    </div>
+                                 
                                  </div>
+
+
                                  <div class="form-group row">
                                     <label class="col-sm-2 label-control" for="mensaje">Mensaje*</label>
                                     <div class="col-sm-10">

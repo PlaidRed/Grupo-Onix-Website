@@ -210,6 +210,34 @@ class Libs extends Common {
 		echo json_encode($json);
 	}
 
+	/*
+	* Get memos by category
+	*/
+	function getMemosByCategory($category = null) {
+		$json = ['error' => false, 'msg' => '', 'memos' => []];
+
+		try {
+			$sql = "SELECT * FROM memos WHERE (fechaExp > CURDATE() OR fechaExp IS NULL OR repetitivo_fechas IS NOT NULL)";
+			if ($category && $category !== 'all') {
+				$sql .= " AND color = :category";
+			}
+			$sql .= " ORDER BY fecha DESC";
+
+			$stmt = $this->_conexion->prepare($sql);
+			if ($category && $category !== 'all') {
+				$stmt->bindParam(':category', $category);
+			}
+			$stmt->execute();
+			$json['memos'] = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+		} catch(PDOException $e) {
+			$json['error'] = true;
+			$json['msg'] = $e->getMessage();
+		}
+
+		echo json_encode($json);
+	}
+
 }
 
 if(isset($_REQUEST['accion'])){
@@ -224,7 +252,10 @@ if(isset($_REQUEST['accion'])){
 			break;	
 		case "downloadFile":
 			$libs->downloadFile();
-			break;																
+			break;		
+		case "getMemosByCategory":
+			$libs->getMemosByCategory();
+			break;
 	}
 }
 

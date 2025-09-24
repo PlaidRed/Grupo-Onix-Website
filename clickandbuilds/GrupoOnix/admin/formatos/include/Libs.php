@@ -11,7 +11,7 @@ for ($i=1; $i < (count($url) - 1); $i++){
 
 // Se incluye la clase Common y la base de datos
 include_once($ruta . "include/Common.php");
-include_once($ruta . "include/Database.php"); // Asegúrate que la ruta sea correcta
+include_once($ruta . "include/Database.php");
 
 $module = 3;
 

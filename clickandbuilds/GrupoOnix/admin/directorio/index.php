@@ -88,6 +88,11 @@ $js = array('index');
       }
     ?>
 
+
+       <!-- name para analiticas -->
+      <meta name="onix-section" content="Directorio">
+
+
   </head>
   <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-gradient-x-orange-yellow" data-col="2-columns">
 

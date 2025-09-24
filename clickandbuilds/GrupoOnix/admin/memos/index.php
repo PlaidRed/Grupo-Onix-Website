@@ -79,6 +79,12 @@ $js = array('index');
       .prd-img {
         width: 100px;
       }
+
+      .table-clientes th:nth-child(2),
+      .table-clientes td:nth-child(2) {
+        width: 100px;
+        white-space: nowrap;
+      }
     </style>
 
   </head>
@@ -117,21 +123,26 @@ $js = array('index');
             <div class="row">
               <table class="table table-striped table-bordered table-clientes">
                 <thead>
-                  <tr>
-                    <th>Fecha</th>
-                    <th>Compañia</th>
-                    <th>Mensaje</th>
-                    <th>Acciones</th>
-                  </tr>
-                </thead>
-                <tfoot>
                     <tr>
                       <th>Fecha</th>
-                      <th>Compañia</th>
+                      <th>Hora</th>
+                      <th>Título</th>
                       <th>Mensaje</th>
+                      <th>Fecha Expiración</th>
                       <th>Acciones</th>
                     </tr>
-                </tfoot>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Fecha</th>
+                      <th>Hora</th>
+                      <th>Título</th>
+                      <th>Mensaje</th>
+                      <th>Fecha Expiración</th>
+                      <th>Acciones</th>
+                    </tr>
+                  </tfoot>
+
               </table>
             </div>
           </div>

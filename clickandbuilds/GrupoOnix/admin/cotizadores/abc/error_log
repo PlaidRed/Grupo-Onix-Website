@@ -1,0 +1,154 @@
+[23-Apr-2020 16:54:36 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 16:54:36 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 16:54:36 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 16:54:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:00:01 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:00:01 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:00:01 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:01:05 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:01:05 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:01:05 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:01:13 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:01:13 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:01:13 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:05:47 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:05:47 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:05:47 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:07 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:07 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:07 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:08 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:08 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:08 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:16 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:16 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:16 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:44 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:44 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:07:44 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:07:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:08:46 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:08:46 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:08:46 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:08:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:09:35 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:09:35 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:09:35 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:09:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:09:36 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:09:36 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:09:36 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:45:58 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:45:58 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:45:58 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:45:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:28 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:28 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:28 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:38 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:38 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:38 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:52 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:52 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:46:52 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:47:22 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:47:22 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 21
+[23-Apr-2020 17:47:22 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/admin/index.php on line 31
+[23-Apr-2020 17:50:34 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:50:34 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:50:34 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:51:31 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:51:31 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:51:31 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:52:32 UTC] PHP Warning:  include_once(include/Common.php): failed to open stream: No such file or directory in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:52:32 UTC] PHP Warning:  include_once(): Failed opening 'include/Common.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 21
+[23-Apr-2020 17:52:32 UTC] PHP Notice:  Undefined variable: common in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:52:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sentinel() on null in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/sm74r65me6jl/public_html/onix/admin/cotizadores/administrador/index.php on line 31
+[23-Apr-2020 17:55:36 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Common.php on line 21
+[23-Apr-2020 17:55:36 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[23-Apr-2020 17:55:36 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197
+[23-Apr-2020 17:55:36 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[23-Apr-2020 17:55:36 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197
+[30-Apr-2020 15:10:28 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Common.php on line 21
+[30-Apr-2020 15:10:28 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[30-Apr-2020 15:10:28 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197
+[30-Apr-2020 16:26:33 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Common.php on line 21
+[30-Apr-2020 16:26:33 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[30-Apr-2020 16:26:33 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197
+[05-May-2020 15:10:14 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Common.php on line 21
+[05-May-2020 15:10:14 America/Mexico_City] PHP Notice:  Undefined index: onx in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 175
+[05-May-2020 15:10:14 America/Mexico_City] PHP Notice:  Undefined offset: 1 in /home/sm74r65me6jl/public_html/onix/admin/include/Core.php on line 197

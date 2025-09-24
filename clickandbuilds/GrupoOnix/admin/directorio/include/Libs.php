@@ -1,4 +1,5 @@
 <?php
+
 /*$url = explode("/aliados/admin", $_SERVER["REQUEST_URI"]);
 $url = explode("/", $url[1]);*/
 

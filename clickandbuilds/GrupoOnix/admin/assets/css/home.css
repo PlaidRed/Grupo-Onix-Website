@@ -1,0 +1,133 @@
+.cal {
+    padding: 20px;
+    margin: 40px auto;
+    margin-top: 50px;
+    max-width: 1600px auto;
+}
+
+/* --- Ajustar ancho y alto de eventos para que no se corten --- */
+.fc-event {
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 8px 10px !important; /* Más alto y ancho interno */
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100% !important; /* Que abarque todo el ancho */
+    min-height: 40px !important; /* Alto mínimo más grande */
+    white-space: normal !important; /* Permitir saltos de línea */
+    word-break: break-word !important; /* Cortar palabras largas */
+    box-sizing: border-box !important;
+    line-height: 1.4em; /* Mejor espaciado de texto */
+}
+
+
+.fc-event.fc-event-success {
+    background-color:  #4decaa !important;
+    color: white !important;
+}
+
+/* Líneas del calendario más oscuras y gruesas */
+.fc-theme-standard td,
+.fc-theme-standard th {
+    border: 0.5px solid #666 !important; /* más grosor y color oscuro */
+}
+
+.fc-theme-standard .fc-scrollgrid {
+    border: 0.5px solid #444 !important; /* borde exterior aún más oscuro */
+}
+
+
+/* --- Animación hover para resaltar eventos --- */
+.fc-event {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    
+}
+
+.fc-event:hover {
+    transform: scale(1.00); /* Un poco más grande */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    z-index: 10; /* Que quede por encima */
+}
+
+
+
+/* Números de los días del mes actual */
+.fc-daygrid-day-number {
+    font-weight: 700 !important; /* más grueso */
+    color: #222 !important; /* gris muy oscuro, casi negro */
+    font-size: 15px !important; /* opcional, un poco más grande */
+}
+
+/* Números de los días que no son del mes actual */
+.fc-day-other .fc-daygrid-day-number {
+    color: #aaa !important; /* más claro para diferenciarlos */
+    font-weight: 500 !important;
+}
+
+
+
+/* --- Leyendas integradas al chunk central del header de FullCalendar --- */
+#calendar .fc .fc-toolbar .fc-toolbar-chunk:nth-child(2) {
+  flex: 1 1 auto;
+}
+
+/* Contenedor: [columna izquierda]  [TÍTULO]  [columna derecha] */
+#calendar .fc-title-legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Columnas de leyenda */
+#calendar .legend-col {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: nowrap;
+}
+
+/* Ítems de la leyenda */
+#calendar .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+#calendar .legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.content-header-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  border: 10px;
+  padding: 10px;
+  margin: 25px !important;
+}
+
+.content-header-line {
+    border-top: 1px solid #e0e0e0;
+    width: 95%;
+    margin: 0 auto 20px auto;
+}
+/* Responsivo opcional */
+@media (max-width: 1200px) {
+  #calendar .fc-title-legend { flex-wrap: wrap; gap: 8px; }
+  #calendar .legend-col { flex-wrap: wrap; justify-content: center; }
+}
+
+
+
+
+
+

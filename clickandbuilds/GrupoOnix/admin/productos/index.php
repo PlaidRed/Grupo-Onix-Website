@@ -81,6 +81,10 @@ $js = array('index');
       }
     </style>
 
+
+       <!-- name para analiticas -->
+      <meta name="onix-section" content="Productos">
+
   </head>
   <body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu" data-color="bg-gradient-x-orange-yellow" data-col="2-columns">
 

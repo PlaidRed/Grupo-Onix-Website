@@ -83,6 +83,14 @@ function getRecords(){
 		    "url": "include/Libs.php?accion=printTable",
 		    "type": "POST"
 		},
+		"columns": [
+            { "data": 0 }, // Fecha
+			{ "data": 1 }, // Hora
+            { "data": 2 }, // titulo
+            { "data": 3 }, // Mensaje (contenido)
+            { "data": 4 }, // Fecha Expiración
+            { "data": 5 }  // Acciones (botones)
+        ],
 		"language": {
 		    "emptyTable":     "No se encontraron registros",
 		    "info":           "Mostrando _START_ a _END_ de _TOTAL_",
@@ -103,3 +111,4 @@ function getRecords(){
 	    "bSort": false,
     } );
 }
+

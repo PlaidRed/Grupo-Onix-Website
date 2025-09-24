@@ -1,0 +1,652 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core WebSite
+@import "base.less";
+
+// Core variables and mixins
+@import "variables.less";
+@import "mixins.less";
+
+// Reset and dependencies
+@import "normalize.less";
+@import "print.less";
+@import "glyphicons.less";
+
+// Core CSS
+@import "scaffolding.less";
+@import "type.less";
+@import "code.less";
+@import "grid.less";
+@import "tables.less";
+@import "forms.less";
+@import "buttons.less";
+
+// Components
+@import "component-animations.less";
+@import "dropdowns.less";
+@import "button-groups.less";
+@import "input-groups.less";
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+@import "labels.less";
+@import "badges.less";
+@import "jumbotron.less";
+@import "thumbnails.less";
+@import "alerts.less";
+@import "progress-bars.less";
+@import "media.less";
+@import "list-group.less";
+@import "panels.less";
+@import "responsive-embed.less";
+@import "wells.less";
+@import "close.less";
+
+// Components w/ JavaScript
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+@import "carousel.less";
+
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+@onix:#ff6e01;
+span.br{
+	display: block;
+	margin-bottom: -5px;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Bold.eot');
+  src: url('../fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Merriweather-Bold.svg#Merriweather-Bold') format('svg'),
+       url('../fonts/Merriweather-Bold.ttf') format('truetype'),
+       url('../fonts/Merriweather-Bold.woff') format('woff'),
+       url('../fonts/Merriweather-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Black.eot');
+  src: url('../fonts/Merriweather-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Merriweather-Black.svg#Merriweather-Black') format('svg'),
+       url('../fonts/Merriweather-Black.ttf') format('truetype'),
+       url('../fonts/Merriweather-Black.woff') format('woff'),
+       url('../fonts/Merriweather-Black.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Light.eot');
+  src: url('../fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Merriweather-Light.svg#Merriweather-Light') format('svg'),
+       url('../fonts/Merriweather-Light.ttf') format('truetype'),
+       url('../fonts/Merriweather-Light.woff') format('woff'),
+       url('../fonts/Merriweather-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.carousel-showsixmoveone{
+	.carousel-control{
+	    width: 4%;
+	    background-image:none;
+	    &.left {
+	      margin-left:15px;
+	    }
+	    &.right {
+	      margin-right:15px;
+	    }
+	}
+
+  .cloneditem-1, 
+  .cloneditem-2, 
+  .cloneditem-3,
+  .cloneditem-4, 
+  .cloneditem-5
+  {
+    display: none;
+  }
+
+  .carousel-inner
+  {
+    @media all and (min-width: 768px)
+    {
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(33.333%, 0, 0);  
+          left: 0;
+        }
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-33.333%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }    
+      } 
+
+      > .active.left,
+      > .prev
+      {
+        left: -33.333%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  33.333%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-1,
+      .cloneditem-2
+      {
+        display: block;
+      }
+    }
+
+    @media all and (min-width: 992px)
+    {    
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(25%, 0, 0);  
+          left: 0;
+        }    
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-25%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }
+      }
+
+      > .active.left,
+      > .prev
+      {
+        left: -16.666%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  16.666%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-3,
+      .cloneditem-4, 
+      .cloneditem-5
+      {
+        display: block;
+      }
+    }    
+  }
+}
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body{
+	min-height:100%;
+	height: 100%;
+}
+header{
+	background:#3f434b;
+	border-bottom: 2px @onix solid;
+	position: relative;
+	.container{
+		display: flex;
+		align-items: center;
+		padding:15px 0;
+		img{
+			max-width: 120px;
+		}
+		#menu-container{
+			margin-left: auto;
+			a{
+				color:#fff;
+				padding:0px 20px;
+			    font-size: 1.1em;
+    			font-weight: bold;
+    			&.unete{
+    				color:@onix;
+    			}
+    			&.last-right{
+    				position:absolute;
+    				right: 0%;
+    			}
+			}
+		}
+	}
+}
+#banner{
+	height: calc(100% - 100px);
+	background:url(../img/banner.jpg)no-repeat;
+	background-position: 0px 30%;
+	background-size: cover;
+	&.bolsatrabajo{
+		background:url(../img/reclutamiento.jpg)no-repeat;
+		background-position: 0px 30%;
+		background-size: cover;
+	}
+	#slogan-container{
+		width: 50%;
+		height: 100%;
+		position:relative;
+		display: flex;
+		margin-left:auto;
+		padding: 0 50px;
+		&:before{
+			content:'';
+			background:rgba(255,110, 1, 0.5);
+			position:absolute;
+			top:0;
+			left:0;
+			width: 100%;
+			height: 100%;
+		}
+		#slogan{
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			position:relative;
+			color:#fff;
+			p{
+				font-family: 'Merriweather';
+				font-weight: 800;
+				font-size: 3.75em;
+				span{	
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+#nuestracompania{
+	background:#3c424c;
+	padding:45px 0;
+	.container{
+		display: flex;
+		align-items:center;
+		h2{
+			color:@onix;
+			font-family: 'Merriweather';
+			font-weight: 600;
+			font-size: 2.75em;
+			margin:0;
+		}
+		p{
+			color:#fff;
+			font-weight: 300;
+			padding-left: 15px;
+			margin-bottom: 0;
+			font-size: 1.3em;
+		}
+	}
+}
+#nuestrosproductos{
+	padding:45px 0;
+	.container{
+		#productos-info{
+			display: flex;
+			align-items:center;
+			margin-bottom: 45px;
+			h2{
+				color:@onix;
+				font-family: 'Merriweather';
+				font-weight: 600;
+				font-size: 2.75em;
+				margin:0;
+			}
+			p{
+				color:#a4aab1;
+				font-weight: 300;
+				padding-left: 15px;
+				margin-bottom: 0;
+				font-size: 1.3em;
+			}
+		}
+	}
+	#ProductosOnix{
+		.item{
+			text-align: center;
+			h3{
+				color:@onix;
+			}
+			p{
+				color:#a4aab1;
+				font-weight: 600;
+			}
+		}
+	}
+}
+#aseguradoras{
+	background:#b3b3b3;
+	color:#fff;
+	h2{
+		font-family: 'Merriweather';
+		font-weight: 600;
+	}
+	#aseguradoras-container{
+		display: grid;
+  		grid-template-columns: auto auto auto auto;
+  		justify-content: space-between;
+		div{
+			//width: ~"calc(25% - 15px)";
+			margin:30px 0;
+			text-align: center;
+			img{
+				max-width: 140px;
+				max-height: 73px;
+			}
+		}
+	}
+}
+#ventajascompetitivas{
+		display: flex;
+		> div{
+			flex: 1 1 0;
+		}
+		.left{
+			padding-left: 45px;
+		    padding-top: 100px;
+		    padding-bottom: 100px;
+			h2{
+				color:@onix;
+				font-family: 'Merriweather';
+				font-weight: 600;
+				font-size: 2.75em;
+				margin:0 0 30px;
+			}
+			ul{
+				padding-left:20px;
+				color:#a8aeb5;
+				font-size: 1.3em;
+				li{
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.right{
+			width: 30%;
+			background-position: center center!important;
+			background-size: cover!important;
+		}
+}
+#formulario{
+	color:#fff;
+	font-family: 'Merriweather';
+	font-weight: 600;
+	padding: 30px 0;
+    background: #a4aab1;
+    h2{
+    	font-size: 2.75em;
+    }
+	form{
+		max-width: 800px;
+    	margin: 0 auto;
+		> div{
+			display: flex;
+			margin: 0 -7.5px 15px;
+			label{
+				margin: 0 7.5px;
+				input{
+					width: 100%;
+					background: transparent;
+					border: solid 2px #fff;
+					border-radius: 4px;
+					font-size: 1.1em;
+					font-family: 'Montserrat';
+					padding: 3px 8px;
+					font-weight: 500;
+					&[type="number"]::-webkit-inner-spin-button,
+					&[type="number"]::-webkit-outer-spin-button{
+						-webkit-appearance:none;
+						margin:0;
+					}
+					&[type="number"]{
+						-moz-appearance: textfield;
+					}
+
+				}
+			}
+		}
+		.row1{
+			label{
+				width: calc(100% / 3);
+			}
+		}
+		.row2{
+			label{
+				width: 50%;
+			}
+		}
+		textarea{
+			width: 100%;
+			font-family: 'Montserrat';
+			height: 120px;
+			background: transparent;
+			border: solid 2px #fff;
+			border-radius: 4px;
+			font-size: 1.1em;
+			padding: 3px 8px;
+			font-weight: 500;
+			resize: none;
+			color:#fff;
+		}
+		input[type="submit"]{
+			background: #3c424c;
+			color: #fff;
+			font-family: 'Montserrat';
+			margin: 0 auto;
+			border: none;
+			border-radius: 4px;
+			font-weight: 500;
+			padding: 6px 35px;
+			display: flex;
+			margin: 15px auto;
+		}
+	}
+}
+#contacto{
+	position:relative;
+	&:before{
+		content:"";
+		background:rgba(233,94,41,1);
+		mix-blend-mode: multiply;
+		width: 100%;
+		height: 100%;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:2;
+	}
+	&:after{
+		content:"";
+		background:url(../img/onix-oficina.png);
+		background-size:cover;
+		width: 100%;
+		height: 100%;
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:1;
+		filter: gray;
+    	-webkit-filter: grayscale(1);
+    	filter: grayscale(1);
+	}
+	.container{
+		position:relative;
+		z-index: 100;
+		color:#fff;
+		padding:35px 0;
+		max-width:800px;
+		h2{
+			font-family: 'Merriweather';
+			font-weight: 600;
+			margin-bottom:35px;
+		}
+		p{
+			font-size: 1.5em;
+		}
+		a{
+			color: @onix;
+			&:hover{
+				opacity: .6;
+			}
+		}
+		#contacto-container{
+			display: flex;
+			margin-top: 20px;
+			margin-bottom: 50px;
+			justify-content: center;
+			form{
+				flex:1 1 0;
+				padding:0 15px;
+				display: flex;
+				flex-direction:column;
+				label{
+					width: 100%;
+					margin-bottom: 15px;
+					input[type="text"],
+					input[type="email"],
+					textarea{
+						width: 100%;
+						resize: none;
+						background: transparent;
+						border: #fff solid 2px;
+						border-radius: 4px;
+						color: #fff;
+						padding:4px 10px;
+					}
+				}
+				input[type="submit"]{
+					background:#ff9132;
+					color:#fff;
+				    border: none;
+				    padding: 5px 35px;
+				    font-weight: 600;
+				    border-radius: 4px;
+				    align-self: flex-end;
+				}
+			}
+			#direccion{
+				padding:0 15px;
+				h5{
+					margin:0;
+					color:#ffb27a;
+					font-family: 'Merriweather';
+					font-weight: 600;
+				}
+				span.br{
+					display: block;
+					height: 10px;
+				}
+			}
+		}
+	}
+}
+footer{
+	background:#3c424c;
+	text-align: center;
+	padding:15px 0;
+	a{
+		color:#a4aab1;
+	}
+}
+::-webkit-input-placeholder {
+  color:#fff;
+}
+::-moz-placeholder {
+  color:#fff;
+}
+:-ms-input-placeholder {
+  color:#fff;
+}
+
+@media (max-width: 1300px){
+	header .container #menu-container a.last-right{
+		position:relative;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

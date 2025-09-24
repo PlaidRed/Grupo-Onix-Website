@@ -66,7 +66,7 @@ try{
     <!-- BEGIN VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/vendors.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/vendors/css/charts/chartist.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/vendors/css/charts/chartist-plugin-tooltip.css">
+
     <!-- END VENDOR CSS-->
     <!-- BEGIN CHAMELEON  CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/app.css">
@@ -76,13 +76,16 @@ try{
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/pages/chat-application.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/pages/dashboard-analytics.css">
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>assets/css/home.css">
     <!-- END Custom CSS-->
 
-    <!-- CSS -->
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet" />
+
+
     <?php 
       if (count($css) > 0) {
         foreach ($css as $clave => $valor) {
@@ -107,32 +110,35 @@ try{
       </div>
     </div>
 
-    <div class="app-content content home">
-        <div class="content-wrapper">
-            <h3 class="content-header-title" style="color:#000"><?php echo(PAGE_TITLE); echo ' '. $_SESSION["onx"]["username"]; ?></h3>
-        <div class="content-body inicio"><!-- Background color start -->
-            <img src="../img/onix-logo-bienvenido.png" alt="Logo Bienvenida">
-          <!-- Background color end -->
-        </div>
+    <h3 class="content-header-title"><?php echo (PAGE_TITLE); echo ' '. $_SESSION["onx"]["username"]; ?></h3>
+    <div class="content-header-line"></div>
+    
+    <div class = "cal">
+      <div id="calendar"></div>
     </div>
+
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
+    <div class="footer">
     <?php echo $common->printFooter(); ?>
+    </div>
 
     <!-- BEGIN VENDOR JS-->
-    <script src="<?php echo $ruta;?>app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+      <script src="<?php echo $ruta;?>app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
     <!-- BEGIN VENDOR JS-->
     <!-- BEGIN PAGE VENDOR JS-->
-    <script type="text/javascript" src="<?php echo $ruta;?>app-assets/vendors/js/ui/jquery.sticky.js"></script>
-    <script src="<?php echo $ruta;?>app-assets/vendors/js/charts/chartist.min.js" type="text/javascript"></script>
-    <script src="<?php echo $ruta;?>app-assets/vendors/js/charts/chartist-plugin-tooltip.min.js" type="text/javascript"></script>
+      <script src="<?php echo $ruta;?>app-assets/vendors/js/charts/chartist.min.js" type="text/javascript"></script>
     <!-- END PAGE VENDOR JS-->
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+
+
+    
     <!-- BEGIN CHAMELEON  JS-->
-    <script src="<?php echo $ruta;?>app-assets/js/core/app-menu.js" type="text/javascript"></script>
-    <script src="<?php echo $ruta;?>app-assets/js/core/app.js" type="text/javascript"></script>
     <!-- END CHAMELEON  JS-->
-    <!-- BEGIN PAGE LEVEL JS-->
-    <script src="<?php echo $ruta;?>app-assets/js/scripts/pages/dashboard-analytics.js" type="text/javascript"></script>
-    <!-- END PAGE LEVEL JS-->
+    <!-- home.js link -->
+      <script src="assets/js/home.js"></script>
+    <!--/ home.js link -->
   </body>
 </html>

@@ -1,0 +1,309 @@
+.aseguradoras {
+    padding: 30px 10px;
+    border-radius: 15px;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+    justify-items: center;
+    align-items: stretch;
+}
+.aseguradora-card {
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(199, 199, 199, 1);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 24px 18px 18px;
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    max-height: 360px;
+    min-height: 360px;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.aseguradora-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    z-index: 5;
+
+}
+.aseguradora-logo {
+    width: 110px;
+    height: 55px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    display: block;
+    background: #fff;
+}
+.aseguradora-nombre {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: center;
+}
+.aseguradora-label {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 2px;
+    width: 100%;
+    font-weight: 500;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+.aseguradora-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+.aseguradora-input {
+    flex: 1;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-left: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: #777 !important;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.aseguradora-copy-btn {
+    background: linear-gradient(to bottom, #f08329, #e4711f);
+    border: 1px solid #c56217;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s, box-shadow 0.1s;
+    box-shadow: 0 4px 0 #b95414, 0 2px 8px rgba(0,0,0,0.2);
+    position: relative;
+    top: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.aseguradora-copy-btn:hover {
+    background: linear-gradient(to bottom, #f59441, #d85f10);
+}
+.aseguradora-copy-btn:active {
+    top: 2px;
+    box-shadow: 0 2px 0 #b95414, 0 1px 4px rgba(0,0,0,0.15);
+    outline: none;
+}
+.aseguradora-card .ir-pagina-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.aseguradora-card .ir-pagina-btn:hover {
+    background: #0097a7;
+}
+.no-interaction {
+    pointer-events: none;
+    user-select: none;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+@media (max-width: 900px) {
+    .aseguradoras {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .aseguradora-card {
+    max-width: 100%;
+    }
+}
+
+
+
+.card:hover {
+    transform: scale(1.02);                                                   
+    box-shadow: 0 6px 12px rgba(255, 2, 2, 0.2);
+    z-index: 1;
+}
+
+.card-header {
+    z-index: 2;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.copy-tooltip {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: #4caf50;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 999;
+    display: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.copy-btn {
+    position: relative; /* Important so tooltip is positioned correctly */
+}
+
+
+/*
+.cotizador-wrapper-box {               marco general de las tarjetas 
+    border-radius: 12px;
+    border: 4px solid rgba(253, 170, 75, 1);
+    /*box-shadow: 0 4px 10px rgba(253, 170, 75, 1);*/
+    /*background-color: rgba(240, 215, 198, 1);
+    padding: 20px;
+}
+*/
+.alert-warning {
+    background-color: #ffffffff;
+    border-color: rgba(241, 241, 240, 1);
+    text-align: center;
+    color: rgba(255, 0, 0, 1);
+    border-radius: 6px;
+
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.search-input {
+    padding: 8px 12px;
+    font-size: 1rem;
+    width: 250px;
+    border: 2px solid rgba(253, 170, 75, 1);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: rgba(253, 170, 75, 1);
+    box-shadow: 0 0 5px rgba(253, 170, 75, 0.5);
+}
+.clear-btn {
+    margin-top: 8px;
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    border: none;
+    outline: none;
+    background-color: #6967ce;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.clear-btn:hover {
+    color: #fff; 
+    border-color: #7473d2;
+    background-color: #7473d2;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(105, 103, 206, .451), 0 1px 3px 1px rgba(105, 103, 206, .302);
+            box-shadow: 0 1px 2px 0 rgba(105, 103, 206, .451), 0 1px 3px 1px rgba(105, 103, 206, .302);
+}
+
+.clear-btn:focus {
+    color: #fff; 
+    outline: none;
+    border-color: #7473d2;
+    background-color: #7473d2;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(105, 103, 206, .451), 0 1px 3px 1px rgba(105, 103, 206, .302) !important;
+            box-shadow: 0 1px 2px 0 rgba(105, 103, 206, .451), 0 1px 3px 1px rgba(105, 103, 206, .302) !important;
+}
+
+.ir-pagina-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 0.95rem;
+    border: none;
+    background-color: #6967ce;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.ir-pagina-link:hover {
+    background-color: #7473d2;
+    text-decoration: none;
+    box-shadow: 0 1px 2px 0 rgba(105, 103, 206, .451), 0 1px 3px 1px rgba(105, 103, 206, .302);
+}
+
+.aviso-container {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.aviso-label {
+    display: inline-block;
+    background-color: #ff3d3d;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 auto 15px auto;
+}
+
+.aviso-message {
+    border-bottom: 1px solid #e0e0e0;
+    width: 95%; /* Mismo ancho reducido */
+    margin: 0 auto 20px auto;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgba(83, 83, 83, 1);
+}
+
+.content-header-line {
+    border-top: 1px solid #e0e0e0;
+    width: 95%;
+    margin: 0 auto 20px auto;
+}

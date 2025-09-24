@@ -3,13 +3,8 @@
 /*
  *  Se identifica la ruta 
  */
-/*$url = explode("/aliados/admin", $_SERVER["REQUEST_URI"]);
-$url = explode("/", $url[1]);*/
-
 $url = explode("/admin", $_SERVER["REQUEST_URI"]);
 $url = explode("/", $url[1]);
-
-//$url = explode("/", $_SERVER["REQUEST_URI"]);
 
 $ruta = "";
 $file=$url[count($url)-1];
@@ -19,7 +14,6 @@ for ($i=1; $i < (count($url) - 1); $i++){
 
 //Se incluye la clase Common
 include_once($ruta."include/Common.php");
-
 
 /*
  *  Se definen los parámetros de la página
@@ -39,8 +33,9 @@ $db = $common->_conexion;
 if(isset($_GET['id'])) {
   try{
     $sql = "SELECT *
-            FROM memos
-            WHERE id = ?";
+        FROM memos
+        WHERE id = ? AND (fechaExp >= CURDATE() OR fechaExp IS NULL OR repetitivo_fechas IS NOT NULL)";
+
     $consulta = $db->prepare($sql);
     $values = array($_GET['id']);
     $consulta->execute($values);
@@ -49,6 +44,7 @@ if(isset($_GET['id'])) {
       $memo = $consulta->fetch(PDO::FETCH_ASSOC);
     } else {
       header("Location: index.php");
+      exit();
     }
 
   }catch(PDOException $e){
@@ -56,7 +52,70 @@ if(isset($_GET['id'])) {
   }
 } else {
   header("Location: index.php");
+  exit();
 }
+
+function formatMemoDateTime($datetime, $showTime = true) {
+    if (!$datetime || $datetime == '0000-00-00 00:00:00') {
+        return null;
+    }
+    
+    $timestamp = strtotime($datetime);
+    $date = date("d/m/Y", $timestamp);
+    $time = date("H:i", $timestamp);
+    
+    // Don't show time if it's default values (00:00 for start, 23:59 for end)
+    if (!$showTime || $time == '00:00' || $time == '23:59') {
+        return $date;
+    }
+    
+    return $date . ' ' . $time;
+}
+
+// Function to create the date/time badge content for individual memo view
+function getMemoDateBadge($memo) {
+    $badgeContent = '';
+    $badgeClass = 'badge-secondary';
+    
+    // Check if this is a repetitive memo
+    if (!empty($memo['repetitivo_fechas'])) {
+        // For repetitive memos, show the initial date from the 'fecha' field
+        $startFormatted = formatMemoDateTime($memo['fecha']);
+        if ($startFormatted) {
+            $badgeContent = $startFormatted;
+            $badgeClass = 'badge-info'; // Special color for repetitive events
+        }
+    } else {
+        // Single memo - show start and end dates/times
+        $startFormatted = formatMemoDateTime($memo['fecha']);
+        $endFormatted = formatMemoDateTime($memo['fechaExp']);
+        
+        if ($endFormatted && $startFormatted != $endFormatted) {
+            // Has different start and end dates/times
+            $badgeContent = $startFormatted . ' - ' . $endFormatted;
+            $badgeClass = 'badge-primary';
+        } elseif ($startFormatted) {
+            // Only start date or same start/end
+            $badgeContent = $startFormatted;
+            
+            // Check if it's all day or has time
+            $startTime = date("H:i", strtotime($memo['fecha']));
+            if ($startTime != '00:00') {
+                $badgeClass = 'badge-warning'; // Has specific time
+            } else {
+                $badgeClass = 'badge-secondary'; // All day event
+            }
+        }
+    }
+    
+    return [
+        'content' => $badgeContent,
+        'class' => $badgeClass
+    ];
+}
+
+// Get the badge information
+$dateBadge = getMemoDateBadge($memo);
 
 ?>
 <!DOCTYPE html>
@@ -80,7 +139,6 @@ if(isset($_GET['id'])) {
     <!-- END CHAMELEON  CSS-->
     <!-- BEGIN Page Level CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/core/menu/menu-types/horizontal-menu.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/core/colors/palette-gradient.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/pages/chat-application.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $ruta;?>app-assets/css/pages/dashboard-analytics.css">
@@ -134,28 +192,61 @@ if(isset($_GET['id'])) {
               <div class="col-sm-12">
                 <div class="card pull-up border-top-warning border-top-3 rounded-0">
                   <div class="card-header">
-                      <h4 class="card-title"><?=$memo['titulo'];?> <span class="badge badge-pill badge-warning float-right m-0"><?=date("d/m/Y",strtotime($memo['fecha']));?></span></h4>
+                      <h4 class="card-title">
+                          <?= htmlspecialchars($memo['titulo']) ?> 
+                          <?php if (!empty($dateBadge['content'])): ?>
+                              <span class="badge badge-pill <?= $dateBadge['class'] ?> float-right m-0">
+                                  <?= $dateBadge['content'] ?>
+                                  <?php if (!empty($memo['repetitivo_fechas'])): ?>
+                                      <i class="fa fa-repeat ml-1" title="Evento repetitivo"></i>
+                                  <?php endif; ?>
+                              </span>
+                          <?php endif; ?>
+                      </h4>
+                      
+                      <?php if (!empty($memo['repetitivo_fechas'])): ?>
+                          <small class="text-muted d-block">
+                              <i class="fa fa-repeat"></i> Este evento se repite en múltiples fechas
+                          </small>
+                      <?php else: ?>
+                          <?php 
+                          // Show time constraints for single events
+                          $startTime = date("H:i", strtotime($memo['fecha']));
+                          $endTime = $memo['fechaExp'] ? date("H:i", strtotime($memo['fechaExp'])) : null;
+                          
+                          if ($startTime != '00:00' || ($endTime && $endTime != '23:59')): ?>
+                              <small class="text-muted d-block">
+                                  <i class="fa fa-clock-o"></i>
+                                  <?php if ($startTime != '00:00'): ?>
+                                      Desde: <?= $startTime ?>
+                                      <?php if ($endTime && $endTime != '23:59' && $endTime != $startTime): ?>
+                                          | Hasta: <?= $endTime ?>
+                                      <?php endif; ?>
+                                  <?php else: ?>
+                                      Evento de todo el día
+                                  <?php endif; ?>
+                              </small>
+                          <?php endif; ?>
+                      <?php endif; ?>
                   </div>
+                  
                   <div class="card-content collapse show">
-                      <div class="card-body p-1">
-                        <?=$memo['contenido'];?>
+                      <div class="card-body p-3">
+                        <?= $memo['contenido']; ?>
                       </div>
                   </div>
+                  
+                  <?php if (!empty($memo['pdf'])): ?>
                   <div class="card-footer">
-                    <?php
-                      if($memo['pdf'] != '') {
-                    ?>
-
-                    <a href="../memos/include/pdf/<?=$memo['pdf'];?>" target="_blank" class="btn btn-success"><i class="la la-file-pdf-o"></i> Descargar PDF</a>
-
-                    <?php
-                      }
-
-                    ?>
+                    <a href="../memos/include/pdf/<?= $memo['pdf']; ?>" target="_blank" class="btn btn-success">
+                        <i class="la la-file-pdf-o"></i> Descargar PDF
+                    </a>
                   </div>
+                  <?php endif; ?>
                 </div>
+                
                 <a href="index.php">
-                    <button type="button" class="btn btn-info mr-1">
+                    <button type="button" class="btn btn-info mr-1 mt-3">
                        <i class="ft-arrow-left"></i> Regresar
                     </button>
                  </a>

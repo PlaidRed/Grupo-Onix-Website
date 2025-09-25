@@ -1,15 +1,13 @@
 <?php
 
+// START SESSION AT THE BEGINNING
+session_start();
+
 /*
  *  Se identifica la ruta 
  */
-/*$url = explode("/aliados/admin", $_SERVER["REQUEST_URI"]);
-$url = explode("/", $url[1]);*/
-
 $url = explode("/admin", $_SERVER["REQUEST_URI"]);
 $url = explode("/", $url[1]);
-
-//$url = explode("/", $_SERVER["REQUEST_URI"]);
 
 $ruta = "";
 $file=$url[count($url)-1];
@@ -20,7 +18,6 @@ for ($i=1; $i < (count($url) - 1); $i++){
 //Se incluye la clase Common
 include_once($ruta."include/Common.php");
 
-
 /*
  *  Se definen los parámetros de la página
  */
@@ -29,6 +26,9 @@ define("PAGE_TITLE", "Cotizadores");
 $module = 16;
 
 $common->sentinel($module);
+
+// DEBUG: Check what session variables are available
+error_log("Available session variables: " . print_r(array_keys($_SESSION), true));
 
 //Se definen los js y css - sólo poner los nombres de los archivos no la terminación
 $css = array();
@@ -90,11 +90,6 @@ try{
     <!-- CSS -->
          <link rel="stylesheet" type="text/css" href="css/index.css">
 
-  <style>
-    
-
-  </style>
-  
     <?php 
       if (count($css) > 0) {
         foreach ($css as $clave => $valor) {
@@ -127,7 +122,7 @@ try{
       <div class="container">
         <!-- AVISO -->
         <div class="aviso-container">
-          <div class="content-header-line"></div> <!-- ESTA es la línea superior -->
+          <div class="content-header-line"></div> 
             <div class="aviso-label">AVISO</div>
             <div class="aviso-message">
               <p>Recuerden que las contraseñas se actualizan con frecuencia. Verifiquen que sus credenciales estén vigentes en este portal</p>
@@ -135,7 +130,6 @@ try{
             </div>
         </div>
         <!-- /AVISO -->
-      <!-- Marco visual -->
       </div>
       <div class="cotizador-wrapper-box p-2 mb-2"> 
       <div class="row">
@@ -148,13 +142,12 @@ try{
           <button 
             class="clear-btn" 
             id="clear-search" 
-            title="Limpiar búsqueda"          >
+            title="Limpiar búsqueda">
             Limpiar
           </button>
         </div>
       </div>
       <!-- /Buscador -->
-      <!-- contorno del marco general -->
 
       <div class="container">
         <div class="aseguradoras">
@@ -181,7 +174,7 @@ try{
                 <button 
                   class="aseguradora-copy-btn copy-btn" 
                   title="Copiar usuario" 
-                  data-target="user-<?php echo $cotizador['id']; ?>"                >
+                  data-target="user-<?php echo $cotizador['id']; ?>">
                   <i class="la la-copy"></i>
                 </button>
               </div>
@@ -199,7 +192,7 @@ try{
                 <button 
                   class="aseguradora-copy-btn copy-btn" 
                   title="Copiar contraseña" 
-                  data-target="pass-<?php echo $cotizador['id']; ?>"                >
+                  data-target="pass-<?php echo $cotizador['id']; ?>">
                   <i class="la la-copy"></i>
                 </button>
               </div>
@@ -210,8 +203,8 @@ try{
                 class="clear-btn ir-pagina-link" 
                 title="Ir a página del cotizador"
                 data-track="ir_pagina_<?php echo preg_replace('/[^a-z0-9]/i', '_', strtolower($cotizador['titulo'])); ?>"
-              > 
-                
+                data-cotizador-id="<?php echo $cotizador['id']; ?>"
+                data-cotizador-name="<?php echo htmlspecialchars($cotizador['titulo']); ?>"> 
                 Ir a Página
               </a>
             </div>
@@ -249,6 +242,11 @@ try{
         }
       }
     ?>
+
+    <!-- DEBUG: Show current user session info -->
+    <script>
+      console.log('Current session user info check - open browser console to see tracking status');
+    </script>
 
   </body>
 </html>

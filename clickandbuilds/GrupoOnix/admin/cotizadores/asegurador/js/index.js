@@ -54,39 +54,42 @@ $(document).ready(function () {
     });
   }
 
-  // ANALYTICS TRACKING - Track "Ir a Página" clicks
+  // Track "Ir a Página" clicks
   $('.ir-pagina-link').on('click', function(e) {
     const $link = $(this);
-    const cotizadorName = $link.closest('.aseguradora-card').find('.aseguradora-nombre').text();
-    const trackingData = $link.data('track');
+    const cotizadorName = $link.data('cotizador-name');
+    const cotizadorId = $link.data('cotizador-id');
     
-    // Send analytics data
-    trackClick(cotizadorName);
+    console.log('Tracking click for:', cotizadorName);
     
+    // Send tracking data (non-blocking)
+    trackClick(cotizadorName, cotizadorId);
   });
 
   /**
-   * Track click events and send to analytics
+   * Track click events and send to backend
    */
-  function trackClick(cotizadorName) {
+  function trackClick(cotizadorName, cotizadorId) {
     $.ajax({
-      url: '../../analiticas/include/Libs.php',
+      url: 'include/track.php',
       type: 'POST',
       data: {
         action: 'trackClick',
         cotizador_name: cotizadorName,
-        user_agent: navigator.userAgent,
+        cotizador_id: cotizadorId,
+        user_agent: navigator.userAgent
       },
       dataType: 'json',
       success: function(response) {
         if (response.success) {
-          console.log('Click tracked successfully:', cotizadorName);
+          console.log('✓ Click tracked successfully:', response.data);
         } else {
-          console.error('Error tracking click:', response.error);
+          console.error('✗ Tracking error:', response.error);
         }
       },
       error: function(xhr, status, error) {
-        console.error('Analytics tracking failed:', error);
+        console.error('✗ AJAX failed:', error);
+        console.error('Response:', xhr.responseText);
       }
     });
   }

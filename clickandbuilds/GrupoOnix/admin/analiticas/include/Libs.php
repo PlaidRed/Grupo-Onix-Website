@@ -21,7 +21,7 @@ $module = 25;
 class Libs extends Common {
     
     /**
-     * Get all users from sistema_usuario table
+     * Get all users from sistema_usuario table + Agentes option
      */
     public function getUsers() {
         header('Content-Type: application/json');
@@ -35,6 +35,12 @@ class Libs extends Common {
             $consulta->execute();
             
             $users = $consulta->fetchAll(PDO::FETCH_ASSOC);
+            
+            // Add the "Agentes" option at the beginning
+            array_unshift($users, [
+                'SIU_ID' => 'agentes',
+                'SIU_NOMBRE_COMPLETO' => 'Agentes (Nivel 3)'
+            ]);
             
             echo json_encode([
                 'success' => true,
@@ -50,6 +56,29 @@ class Libs extends Common {
     }
     
     /**
+     * Get user IDs from analytics that correspond to level 3 users (Agentes)
+     */
+    private function getAgentUserIds() {
+        try {
+            // Get distinct user_ids from analiticas table that correspond to level 3 users
+            $query = "SELECT DISTINCT a.user_id 
+                      FROM analiticas a
+                      INNER JOIN sistema_usuario su ON a.user_id = su.SIU_ID
+                      WHERE su.SIU_ACCESO = 3";
+            
+            $consulta = $this->_conexion->prepare($query);
+            $consulta->execute();
+            
+            $result = $consulta->fetchAll(PDO::FETCH_COLUMN);
+            return $result;
+            
+        } catch (Exception $e) {
+            error_log("Error getting agent user IDs: " . $e->getMessage());
+            return [];
+        }
+    }
+    
+    /**
      * Get analytics data with filters
      */
     public function getAnalytics() {
@@ -60,25 +89,41 @@ class Libs extends Common {
         $toDate = $_POST['to_date'] ?? null;
         
         try {
-            $query = "SELECT * FROM analiticas WHERE 1=1";
+            $query = "SELECT 
+                        a.*,
+                        su.SIU_NOMBRE_COMPLETO as user_name
+                      FROM analiticas a
+                      LEFT JOIN sistema_usuario su ON a.user_id = su.SIU_ID
+                      WHERE 1=1";
             $params = [];
             
-            if ($userId) {
-                $query .= " AND user_id = :user_id";
-                $params[':user_id'] = $userId;
+            // Handle special "agentes" case
+            if ($userId === 'agentes') {
+                $agentIds = $this->getAgentUserIds();
+                if (!empty($agentIds)) {
+                    $placeholders = str_repeat('?,', count($agentIds) - 1) . '?';
+                    $query .= " AND a.user_id IN ($placeholders)";
+                    $params = array_merge($params, $agentIds);
+                } else {
+                    // No agents found in analytics, return empty result
+                    $query .= " AND 1=0";
+                }
+            } elseif ($userId) {
+                $query .= " AND a.user_id = ?";
+                $params[] = $userId;
             }
             
             if ($fromDate) {
-                $query .= " AND DATE(created_at) >= :from_date";
-                $params[':from_date'] = $fromDate;
+                $query .= " AND DATE(a.created_at) >= ?";
+                $params[] = $fromDate;
             }
             
             if ($toDate) {
-                $query .= " AND DATE(created_at) <= :to_date";
-                $params[':to_date'] = $toDate;
+                $query .= " AND DATE(a.created_at) <= ?";
+                $params[] = $toDate;
             }
             
-            $query .= " ORDER BY created_at DESC";
+            $query .= " ORDER BY a.created_at DESC";
             
             $consulta = $this->_conexion->prepare($query);
             $consulta->execute($params);
@@ -87,7 +132,14 @@ class Libs extends Common {
             
             echo json_encode([
                 'success' => true,
-                'data' => $analytics
+                'data' => $analytics,
+                'debug' => [
+                    'user_id' => $userId,
+                    'is_agentes' => ($userId === 'agentes'),
+                    'agent_ids' => ($userId === 'agentes') ? $this->getAgentUserIds() : null,
+                    'query' => $query,
+                    'params' => $params
+                ]
             ]);
             
         } catch (Exception $e) {

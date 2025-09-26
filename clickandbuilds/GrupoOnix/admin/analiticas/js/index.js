@@ -65,10 +65,18 @@ $(document).ready(function () {
     $select.append('<option value="">Todos</option>');
 
     users.forEach(function(user) {
+      let optionText = user.SIU_NOMBRE_COMPLETO;
+      let optionValue = user.SIU_ID;
+      
+      // Special styling for Agentes option
+      if (user.SIU_ID === 'agentes') {
+        optionText = '👥 ' + user.SIU_NOMBRE_COMPLETO;
+      }
+      
       $select.append(
         $('<option></option>')
-          .val(user.SIU_ID)
-          .text(user.SIU_NOMBRE_COMPLETO)
+          .val(optionValue)
+          .text(optionText)
       );
     });
 
@@ -99,7 +107,8 @@ $(document).ready(function () {
       success: function(response) {
         if (response.success) {
           console.log('Analytics data:', response.data);
-          displayAnalytics(response.data);
+          console.log('Debug info:', response.debug);
+          displayAnalytics(response.data, userId);
         } else {
           console.error('Error loading analytics:', response.error);
           bootbox.alert('Error al cargar analíticas: ' + response.error);
@@ -116,7 +125,7 @@ $(document).ready(function () {
   /**
    * Display analytics data in a DataTable
    */
-  function displayAnalytics(data) {
+  function displayAnalytics(data, selectedUserId) {
     // Get the card body specifically for analytics dashboard
     const $cardBody = $('.card-header:contains("Analíticas Dashboard")').next('.card-body');
 
@@ -125,10 +134,20 @@ $(document).ready(function () {
       $('#analyticsTable').DataTable().destroy();
     }
 
+    // Determine title based on selection
+    let titleText = '';
+    if (selectedUserId === 'agentes') {
+      titleText = ' - Agentes (Nivel 3)';
+    } else if (selectedUserId && selectedUserId !== '') {
+      titleText = ` - Usuario específico (ID: ${selectedUserId})`;
+    } else {
+      titleText = ' - Todos los usuarios';
+    }
+
     // Build table HTML
     let tableHTML = `
       <div class="alert alert-info">
-        <strong>Total de clics:</strong> ${data.length}
+        <strong>Total de clics${titleText}:</strong> ${data.length}
       </div>
       <div class="table-responsive">
         <table id="analyticsTable" class="table table-striped table-bordered">
